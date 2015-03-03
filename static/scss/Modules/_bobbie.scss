@@ -1,0 +1,12 @@
+.tab-bar{
+	display:none;
+}
+
+@media #{$small-only} {  
+    .tab-bar{
+		display:block;
+	}
+	.gone-phone{
+		display: none;
+	}
+}

@@ -1,0 +1,39 @@
+{
+    "name": "atabix/default",
+    "description": "Atabix Default Package",
+    "homepage": "http://www.atabix.com",
+    "time": "YYYY-MM-DD",
+    "license": "MIT",
+    "keywords": ["Atabix"],
+    "authors": [
+        {
+            "name": "Frontend",
+            "email": "Frontend@atabix.com",
+            "homepage": "http://www.atabix.com",
+            "role": "developer"
+        },
+        {
+            "name": "Backend",
+            "email": "Backend@atabix.com",
+            "homepage": "http://www.atabix.com",
+            "role": "developer"
+        }
+    ],
+    "support": {
+	  	"email": "support@atabix.com"
+    },
+    "repositories": [
+           {"type": "vcs", "url":"git@github.com:atabix/atabase.git" },
+           {"type": "vcs", "url":"git@github.com:atabix/atabase-datatables.git" }
+    ],
+    "require": {
+        "atabix/atabase": "*",
+        "atabix/atabase-datatables": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+         "psr-4": {
+              "DefaultProject\\": "src/DefaultProject"
+         }
+    }
+}

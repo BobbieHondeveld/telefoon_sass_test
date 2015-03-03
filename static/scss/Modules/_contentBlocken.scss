@@ -1,0 +1,74 @@
+.contentBlocken{
+	padding:10px;
+	.clickme{
+		background-color:white;
+		margin-bottom: 20px;
+
+		.panel{
+			background-color:white;
+			padding:0px;
+			padding-top: 20px;
+			border: none;
+			.iphone-headers{
+				margin-bottom: 20px;
+				background-color: white;
+				.icons{
+					display:inline;
+				}
+				.iphone-title{
+					display: inline;
+					position:relative;
+					top:18px!important;
+					margin-left: 10px;
+				}
+			}
+			.showtekst{
+				display: none;
+				margin-top: 20px;
+				height:100%;
+				.prijs-lijst{
+					border:none;
+					border-collapse:collapse;
+					display: inline-block;
+					float: left;
+					margin-left: 70px;
+					.first-child-table{
+						background-color:$snow;
+						font-weight:bold;
+
+					}
+					.underline{
+						border-bottom:1px solid darkblue;
+						padding:0;
+					}
+					.right{
+						border-left:1px solid darkblue;
+						width:125px;
+						float:right;
+						margin-left:40px;
+						padding:4px;
+					}
+					.left{
+						padding:4px;
+						padding-left:10px;
+					}
+				}
+				.foto-popup{
+					margin-bottom:20px;
+					display: inline-block;
+					float: right;
+
+					margin-right: 10%;
+				}
+				.TelefoonRepareren{
+					float: right;
+					margin-right: 110px;
+					width: 190px;
+				}
+			}
+		}
+	}
+}
+
+
+

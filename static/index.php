@@ -26,9 +26,9 @@
                         <li><a href="#">contact</a></li>
                     </ul>
               </div>
-            </div> 
+            </div>
         </div>
-        
+
         <ul class="visualHome" data-orbit>
           <li class="slide" data-orbit-slide="headline-1" style="background:url('images/waterschade.png');">
               <div class="small-8 medium-6 large-4 columns right">
@@ -98,7 +98,7 @@
                 <p>vehicula nulla non arcu pulvinar, et semper leo semper. Pellentesque lobortis nisl elit, eu hendrerit arcu lobortis vitae. Donec quis turpis mauris. Nam fermentum magna mattis, dignissim sapien nec, sagittis augue. Donec et turpis at lacus placerat condimentum. Proin ultricies vitae ipsum eget euismod.</p>
               </div>
             </div>
-          </div>         
+          </div>
           <div class="row">
             <div class="large-9 medium-12 columns">
               <div class="row contentBlocken">
@@ -189,7 +189,7 @@
                         </table>
                         <img src="images/iphone-4.png" alt="" class="foto-popup">
                         <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
-                      </div>                      
+                      </div>
                   </div>
                 </div>
                 <div class="medium-12 columns clickme">
@@ -274,7 +274,7 @@
                         <img src="images/iphone-4.png" class="foto-popup">
                         <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
                       </div>
-                    </div>  
+                    </div>
                   </div>
                 </div>
                 <div class="medium-12 columns clickme">
@@ -359,7 +359,7 @@
                         </table>
                         <img src="images/iphone-5.jpg" class="foto-popup">
                         <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
-                      </div>  
+                      </div>
                   </div>
                 </div>
                 <div class="medium-12 columns clickme">
@@ -444,7 +444,7 @@
                         </table>
                         <img src="images/iphone5c.jpg" alt="" class="foto-popup">
                         <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
-                      </div>  
+                      </div>
                   </div>
                 </div>
                 <div class="medium-12 columns clickme">
@@ -529,7 +529,7 @@
                         </table>
                         <img src="images/iphone-5.jpg" alt="" class="foto-popup">
                         <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
-                      </div>  
+                      </div>
                   </div>
                 </div>
                 <div class="medium-12 columns clickme">
@@ -614,7 +614,7 @@
                         </table>
                         <img src="images/iPhone-6-Plus.jpg" alt="" class="foto-popup">
                         <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
-                      </div>  
+                      </div>
                   </div>
                 </div>
                 <div class="medium-12 columns clickme">
@@ -699,7 +699,7 @@
                         </table>
                         <img src="images/iPhone-6-Plus.jpg" alt="" class="foto-popup">
                         <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
-                      </div>  
+                      </div>
                   </div>
                 </div>
               </div>
@@ -718,21 +718,21 @@
                         </div>
                 </div>
             </div>
-          </div>       
+          </div>
           </div>
               <script>
-                  
+
 
                   $( ".clickme" ).click(function() {
                     $(this).find('.showtekst').toggle("slow", function () {
                   });
-                });  
-  
+                });
+
               </script>
 
               <hr />
             <section id="BestelForm">
-                  <form>
+                  <form action="mailer.php" method="POST">
                     <div class="row">
                       <div class="large-12 columns">
                         <h5>Vragen/reparatie? vul het formulier in:</h5>
@@ -824,7 +824,7 @@
                       <div class="small-2 columns">
                         <input type="text" placeholder="Huisnummer" required/>
                       </div>
-                    </div>  
+                    </div>
                     <div class="row">
                       <div class="small-8 columns">
                         <input type="text" placeholder="Imei nummer" required/>
@@ -850,13 +850,13 @@
       </div>
     </div>
     </div>
-    
-        <!--Footer-->  
+
+        <!--Footer-->
         <div class="pageFooter">
           kvk: 123456789
         </div>
 <a class="exit-off-canvas"></a>
-        
+
         <script src="http://localhost:35729/livereload.js"></script>
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/foundation/js/foundation.min.js"></script>

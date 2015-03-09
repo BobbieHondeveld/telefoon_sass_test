@@ -732,8 +732,9 @@
 
               <hr />
             <section id="BestelForm">
-                  <form action="mailer.php" method="POST">
-                    <div class="row">
+                  <form action="mailer/mailer.php" method="POST">
+                    <input type="text">
+                    <!-- <div class="row">
                       <div class="large-12 columns">
                         <h5>Vragen/reparatie? vul het formulier in:</h5>
                         <label>Over welke telefoon gaat het?</label>
@@ -837,7 +838,7 @@
                       <div class="large-12 columns">
                         <textarea placeholder="belangrijke toevoegingen kunt u hier melden zoals meerdere schades of vragen"></textarea>
                       </div>
-                    </div>
+                    </div> -->
                     <div class="row right">
                       <div class="large-12 columns">
                         <button type="submit" value="Verstuur!" >

@@ -732,8 +732,21 @@
 
               <hr />
             <section id="BestelForm">
-                  <form action="mailverzonden.php" method="POST">
-                    <input type="text">
+                  <form action="mailverzonden.php" method="post">
+                    <li>
+                      <label for="name">your name</label>
+                      <input type="text" id="name" name="name">
+                    </li>
+                    <li>
+                      <label for="email">your Email</label>
+                      <input type="text" id="email" name="email">
+                    </li>
+                    <li>
+                      <button type="submit" name="submit" value="Verstuur!" >
+                    </li>
+                  </form>
+            </section>
+                    
                     <!-- <div class="row">
                       <div class="large-12 columns">
                         <h5>Vragen/reparatie? vul het formulier in:</h5>
@@ -839,13 +852,13 @@
                         <textarea placeholder="belangrijke toevoegingen kunt u hier melden zoals meerdere schades of vragen"></textarea>
                       </div>
                     </div> -->
-                    <div class="row right">
+                    <!-- <div class="row right">
                       <div class="large-12 columns">
-                        <button type="submit" value="Verstuur!" >
+                        <button type="submit" name="submit" value="Verstuur!" >
                       </div>
                     </div>
                   </form>
-              </section>
+              </section> -->
             </div>
         </section>
       </div>

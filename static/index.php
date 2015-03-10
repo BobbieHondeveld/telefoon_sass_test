@@ -732,7 +732,7 @@
 
               <hr />
             <section id="BestelForm">
-                  <form action="mailer/mailer.php" method="POST">
+                  <form action="mailverzonden.php" method="POST">
                     <input type="text">
                     <!-- <div class="row">
                       <div class="large-12 columns">

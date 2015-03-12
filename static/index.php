@@ -732,133 +732,119 @@
 
               <hr />
             <section id="BestelForm">
-                  <form action="mailverzonden.php" method="post">
-                    <li>
-                      <label for="name">your name</label>
-                      <input type="text" id="name" name="name">
-                    </li>
-                    <li>
-                      <label for="email">your Email</label>
-                      <input type="text" id="email" name="email">
-                    </li>
-                    <li>
-                      <button type="submit" name="submit" value="Verstuur!" >
-                    </li>
-                  </form>
-            </section>
-                    
-                    <!-- <div class="row">
+                  <form action="mailverzonden.php" method="post">                  
+                    <div class="row">
                       <div class="large-12 columns">
                         <h5>Vragen/reparatie? vul het formulier in:</h5>
                         <label>Over welke telefoon gaat het?</label>
-                        <select>
-                            <option value="kop1">Ik kan geen keus maken</option>
-                            <option value="kop1">Iphone 4</option>
-                            <option value="kop2">Iphone 4S</option>
-                            <option value="kop3">Iphone 5</option>
-                            <option value="kop4">Iphone 5c</option>
-                            <option value="kop5">Iphone 5s</option>
-                            <option value="kop6">Iphone 6</option>
-                            <option value="kop6">Iphone 6+</option>
+                        <select name="WhitchPhone">
+                            <option value="Ik kan geen keus maken">Ik kan geen keus maken</option>
+                            <option value="Iphone 4">Iphone 4</option>
+                            <option value="Iphone 4S">Iphone 4S</option>
+                            <option value="Iphone 5">Iphone 5</option>
+                            <option value="Iphone 5c">Iphone 5c</option>
+                            <option value="Iphone 5s">Iphone 5s</option>
+                            <option value="Iphone 6">Iphone 6</option>
+                            <option value="Iphone 6+">Iphone 6+</option>
                         </select>
                       </div>
                     </div>
                     <div class="row">
                       <div class="large-4 medium-4 columns">
                         <label>Heeft u een vraag of schade?</label>
-                        <input type="radio" name="pokemon" value="Red" id="pokemonRed" required><label for="pokemonRed">Vragen</label>
-                        <input type="radio" name="pokemon" value="Blue" id="pokemonBlue" required><label for="pokemonBlue">Schade</label>
+                        <input type="radio" name="radioSoort" required><label for="vragen">Vragen</label>
+                        <input type="radio" name="radioSoort" required><label for="schade">Schade</label>
                       </div>
                       <div class="large-4 medium-4 columns">
                         <select>
-                          <option value="MeerdereSchades">Meerdere schades</option>
-                          <option value="NietVanToepassing">Niet van toepassing</option>
-                          <option value="Scherm">Scherm</option>
-                          <option value="Achterkant">Achterkant</option>
-                          <option value="HomeKnop">Home knop</option>
-                          <option value="Trilmodule">Trilmodule</option>
-                          <option value="VolumeKnoppen">Volume knoppen</option>
-                          <option value="Hoofdtelefoonaansluiting">Hoofdtelefoonaansluiting</option>
-                          <option value="AchterCamera">Achter camera</option>
-                          <option value="VoorCamera">Voor camera</option>
-                          <option value="DockConnector">Dock connector</option>
-                          <option value="Accu">Accu</option>
-                          <option value="WI-FIAntenne">WI-FI antenne</option>
-                          <option value="ontvangstAntene">ontvangst antene</option>
-                          <option value="speaker">speaker</option>
-                          <option value="Microfoon">Microfoon</option>
-                          <option value="SimkaartHouder">Simkaart houder</option>
+                          <option name="schade" value="MeerdereSchades">Meerdere schades</option>
+                          <option name="schade" value="NietVanToepassing">Niet van toepassing</option>
+                          <option name="schade" value="Scherm">Scherm</option>
+                          <option name="schade" value="Achterkant">Achterkant</option>
+                          <option name="schade" value="HomeKnop">Home knop</option>
+                          <option name="schade" value="Trilmodule">Trilmodule</option>
+                          <option name="schade" value="VolumeKnoppen">Volume knoppen</option>
+                          <option name="schade" value="Hoofdtelefoonaansluiting">Hoofdtelefoonaansluiting</option>
+                          <option name="schade" value="AchterCamera">Achter camera</option>
+                          <option name="schade" value="VoorCamera">Voor camera</option>
+                          <option name="schade" value="DockConnector">Dock connector</option>
+                          <option name="schade" value="Accu">Accu</option>
+                          <option name="schade" value="WI-FIAntenne">WI-FI antenne</option>
+                          <option name="schade" value="ontvangstAntene">ontvangst antene</option>
+                          <option name="schade" value="speaker">speaker</option>
+                          <option name="schade" value="Microfoon">Microfoon</option>
+                          <option name="schade" value="SimkaartHouder">Simkaart houder</option>
                         </select>
                       </div>
                         <div class="large-4 medium-4 columns">
                         <select>
-                          <option value="Schade">Schade</option>
-                          <option value="NietVanToepassing">Niet van toepassing</option>
-                          <option value="Scherm">Scherm</option>
-                          <option value="Achterkant">Achterkant</option>
-                          <option value="HomeKnop">Home knop</option>
-                          <option value="Trilmodule">Trilmodule</option>
-                          <option value="VolumeKnoppen">Volume knoppen</option>
-                          <option value="Hoofdtelefoonaansluiting">Hoofdtelefoonaansluiting</option>
-                          <option value="AchterCamera">Achter camera</option>
-                          <option value="VoorCamera">Voor camera</option>
-                          <option value="DockConnector">Dock connector</option>
-                          <option value="Accu">Accu</option>
-                          <option value="WI-FIAntenne">WI-FI antenne</option>
-                          <option value="ontvangstAntene">ontvangst antene</option>
-                          <option value="speaker">speaker</option>
-                          <option value="Microfoon">Microfoon</option>
-                          <option value="SimkaartHouder">Simkaart houder</option>
+                          <option name="schade2" value="Schade">Schade</option>
+                          <option name="schade2" value="NietVanToepassing">Niet van toepassing</option>
+                          <option name="schade2" value="Scherm">Scherm</option>
+                          <option name="schade2" value="Achterkant">Achterkant</option>
+                          <option name="schade2" value="HomeKnop">Home knop</option>
+                          <option name="schade2" value="Trilmodule">Trilmodule</option>
+                          <option name="schade2" value="VolumeKnoppen">Volume knoppen</option>
+                          <option name="schade2" value="Hoofdtelefoonaansluiting">Hoofdtelefoonaansluiting</option>
+                          <option name="schade2" value="AchterCamera">Achter camera</option>
+                          <option name="schade2" value="VoorCamera">Voor camera</option>
+                          <option name="schade2" value="DockConnector">Dock connector</option>
+                          <option name="schade2" value="Accu">Accu</option>
+                          <option name="schade2" value="WI-FIAntenne">WI-FI antenne</option>
+                          <option name="schade2" value="ontvangstAntene">ontvangst antene</option>
+                          <option name="schade2" value="speaker">speaker</option>
+                          <option name="schade2" value="Microfoon">Microfoon</option>
+                          <option name="schade2" value="SimkaartHouder">Simkaart houder</option>
                         </select>
                       </div>
                     </div>
                     <div class="row">
                       <div class="small-6 columns">
-                        <input type="text" placeholder="Voornaam" required/>
+                        <input type="text" name="Fname" placeholder="Voornaam" required/>
                       </div>
                       <div class="small-6 columns">
-                        <input type="text" placeholder="Achternaam" required/>
+                        <input type="text" name="Lname" placeholder="Achternaam" required/>
                       </div>
                     </div>
                     <div class="row">
                       <div class="small-6 columns">
-                        <input type="text" placeholder="Email-adres" required/>
+                        <input type="text" name="email" placeholder="Email-adres" required/>
                       </div>
                       <div class="small-6 columns">
-                        <input type="text" placeholder="Telefoon nummer"/>
+                        <input type="text" name="telefoonNummer" placeholder="Telefoon nummer"/>
                       </div>
                     </div>
                     <div class="row">
                       <div class="small-5 columns">
-                        <input type="text" placeholder="Plaats" required/>
+                        <input type="text" name="plaats" placeholder="Plaats" required/>
                       </div>
                       <div class="small-5 columns">
-                        <input type="text" placeholder="Straat" required/>
+                        <input type="text" name="straat" placeholder="Straat" required/>
                       </div>
                       <div class="small-2 columns">
-                        <input type="text" placeholder="Huisnummer" required/>
+                        <input type="text" name="Hnummer" placeholder="Huisnummer" required/>
                       </div>
                     </div>
                     <div class="row">
                       <div class="small-8 columns">
-                        <input type="text" placeholder="Imei nummer" required/>
+                        <input type="text" name="imeiNummer" placeholder="Imei nummer" required/>
                     </div>
                       <div class="small-4 columns">
-                        <input type="text" placeholder="toegangs code" required/>
+                        <input type="text" name="ToegangsCode" placeholder="toegangs code" required/>
                       </div>
                     </div>
                     <div class="row">
                       <div class="large-12 columns">
-                        <textarea placeholder="belangrijke toevoegingen kunt u hier melden zoals meerdere schades of vragen"></textarea>
+                        <textarea name="Toevoeging" placeholder="belangrijke toevoegingen kunt u hier melden zoals meerdere schades of vragen"></textarea>
                       </div>
-                    </div> -->
-                    <!-- <div class="row right">
+                    </div>
+                    <div class="row right">
                       <div class="large-12 columns">
                         <button type="submit" name="submit" value="Verstuur!" >
                       </div>
                     </div>
                   </form>
-              </section> -->
+              </section>
             </div>
         </section>
       </div>

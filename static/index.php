@@ -752,49 +752,49 @@
                     <div class="row">
                       <div class="large-4 medium-4 columns">
                         <label>Heeft u een vraag of schade?</label>
-                        <input type="radio" name="radioSoort" required><label for="vragen">Vragen</label>
-                        <input type="radio" name="radioSoort" required><label for="schade">Schade</label>
+                        <input type="radio" name="radioSoort" value="Vragen" required><label for="vragen">Vragen</label>
+                        <input type="radio" name="radioSoort" value="Schade" required><label for="schade">Schade</label>
                       </div>
                       <div class="large-4 medium-4 columns">
-                        <select>
-                          <option name="schade" value="MeerdereSchades">Meerdere schades</option>
-                          <option name="schade" value="NietVanToepassing">Niet van toepassing</option>
-                          <option name="schade" value="Scherm">Scherm</option>
-                          <option name="schade" value="Achterkant">Achterkant</option>
-                          <option name="schade" value="HomeKnop">Home knop</option>
-                          <option name="schade" value="Trilmodule">Trilmodule</option>
-                          <option name="schade" value="VolumeKnoppen">Volume knoppen</option>
-                          <option name="schade" value="Hoofdtelefoonaansluiting">Hoofdtelefoonaansluiting</option>
-                          <option name="schade" value="AchterCamera">Achter camera</option>
-                          <option name="schade" value="VoorCamera">Voor camera</option>
-                          <option name="schade" value="DockConnector">Dock connector</option>
-                          <option name="schade" value="Accu">Accu</option>
-                          <option name="schade" value="WI-FIAntenne">WI-FI antenne</option>
-                          <option name="schade" value="ontvangstAntene">ontvangst antene</option>
-                          <option name="schade" value="speaker">speaker</option>
-                          <option name="schade" value="Microfoon">Microfoon</option>
-                          <option name="schade" value="SimkaartHouder">Simkaart houder</option>
+                        <select name="WhitchDamage">
+                          <option value="Schade">Schade</option>
+                          <option value="Niet van toepassing">Niet van toepassing</option>
+                          <option value="Scherm">Scherm</option>
+                          <option value="Achterkant">Achterkant</option>
+                          <option value="Home knop">Home knop</option>
+                          <option value="Trilmodule">Trilmodule</option>
+                          <option value="Volume knoppen">Volume knoppen</option>
+                          <option value="Hoofd telefoon aansluiting">Hoofdtelefoonaansluiting</option>
+                          <option value="Achter camera">Achter camera</option>
+                          <option value="Voor camera">Voor camera</option>
+                          <option value="Dock connector">Dock connector</option>
+                          <option value="Accu">Accu</option>
+                          <option value="WI-FI antenne">WI-FI antenne</option>
+                          <option value="Ontvangst antene">ontvangst antene</option>
+                          <option value="Speaker">speaker</option>
+                          <option value="Microfoon">Microfoon</option>
+                          <option value="Simkaart houder">Simkaart houder</option>
                         </select>
                       </div>
                         <div class="large-4 medium-4 columns">
-                        <select>
-                          <option name="schade2" value="Schade">Schade</option>
-                          <option name="schade2" value="NietVanToepassing">Niet van toepassing</option>
-                          <option name="schade2" value="Scherm">Scherm</option>
-                          <option name="schade2" value="Achterkant">Achterkant</option>
-                          <option name="schade2" value="HomeKnop">Home knop</option>
-                          <option name="schade2" value="Trilmodule">Trilmodule</option>
-                          <option name="schade2" value="VolumeKnoppen">Volume knoppen</option>
-                          <option name="schade2" value="Hoofdtelefoonaansluiting">Hoofdtelefoonaansluiting</option>
-                          <option name="schade2" value="AchterCamera">Achter camera</option>
-                          <option name="schade2" value="VoorCamera">Voor camera</option>
-                          <option name="schade2" value="DockConnector">Dock connector</option>
-                          <option name="schade2" value="Accu">Accu</option>
-                          <option name="schade2" value="WI-FIAntenne">WI-FI antenne</option>
-                          <option name="schade2" value="ontvangstAntene">ontvangst antene</option>
-                          <option name="schade2" value="speaker">speaker</option>
-                          <option name="schade2" value="Microfoon">Microfoon</option>
-                          <option name="schade2" value="SimkaartHouder">Simkaart houder</option>
+                        <select name="WhitchDamage2">
+                          <option value="Schade">Schade</option>
+                          <option value="Niet van toepassing">Niet van toepassing</option>
+                          <option value="Scherm">Scherm</option>
+                          <option value="Achterkant">Achterkant</option>
+                          <option value="Home knop">Home knop</option>
+                          <option value="Trilmodule">Trilmodule</option>
+                          <option value="Volume knoppen">Volume knoppen</option>
+                          <option value="Hoofd telefoon aansluiting">Hoofdtelefoonaansluiting</option>
+                          <option value="Achter camera">Achter camera</option>
+                          <option value="Voor camera">Voor camera</option>
+                          <option value="Dock connector">Dock connector</option>
+                          <option value="Accu">Accu</option>
+                          <option value="WI-FI antenne">WI-FI antenne</option>
+                          <option value="Ontvangst antene">ontvangst antene</option>
+                          <option value="Speaker">speaker</option>
+                          <option value="Microfoon">Microfoon</option>
+                          <option value="Simkaart houder">Simkaart houder</option>
                         </select>
                       </div>
                     </div>

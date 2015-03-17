@@ -838,9 +838,9 @@
                         <textarea name="Toevoeging" placeholder="belangrijke toevoegingen kunt u hier melden zoals meerdere schades of vragen"></textarea>
                       </div>
                     </div>
-                    <div class="row right">
+                    <div class="row collapse right">
                       <div class="large-12 columns">
-                        <button type="submit" name="submit" value="Verstuur!" >
+                        <button class="small button" type="submit" name="submit" value="Verstuur">Verstuur</button>
                       </div>
                     </div>
                   </form>

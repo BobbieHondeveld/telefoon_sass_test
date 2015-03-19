@@ -5210,13 +5210,13 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 2.125rem; }
+  font-size: 1.25rem; }
 
 h2 {
-  font-size: 1.6875rem; }
+  font-size: 0.9375rem; }
 
 h3 {
-  font-size: 1.375rem; }
+  font-size: 0.9375rem; }
 
 h4 {
   font-size: 1.125rem; }
@@ -5370,13 +5370,13 @@ blockquote, blockquote p {
     line-height: 1.4; }
 
   h1 {
-    font-size: 2.75rem; }
+    font-size: 1.875rem; }
 
   h2 {
-    font-size: 2.3125rem; }
+    font-size: 1.5625rem; }
 
   h3 {
-    font-size: 1.6875rem; }
+    font-size: 1.25rem; }
 
   h4 {
     font-size: 1.4375rem; }
@@ -6255,6 +6255,16 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; }
  }
+
+.box-shadow {
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.1875rem gray;
+          box-shadow: 0.0625rem 0.0625rem 0.1875rem gray;
+  border: none; }
+
+select, textarea, input[type="text"] {
+  -webkit-box-shadow: 0.03125rem 0.03125rem 0.1875rem gray;
+          box-shadow: 0.03125rem 0.03125rem 0.1875rem gray;
+  border: none; }
 
 .pageHeader {
   position: absolute;

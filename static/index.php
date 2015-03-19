@@ -93,8 +93,8 @@
         <section class="main-section">
           <div class="row">
             <div class="large-12 columns">
-              <h5>Goedkope en snelle Iphone reparaties</h5>
-              <div class="panel">
+              <h1>Goedkope en snelle Iphone reparaties</h1>
+              <div class="box-shadow panel">
                 <p>vehicula nulla non arcu pulvinar, et semper leo semper. Pellentesque lobortis nisl elit, eu hendrerit arcu lobortis vitae. Donec quis turpis mauris. Nam fermentum magna mattis, dignissim sapien nec, sagittis augue. Donec et turpis at lacus placerat condimentum. Proin ultricies vitae ipsum eget euismod.</p>
               </div>
             </div>
@@ -104,10 +104,10 @@
               <div class="row contentBlocken">
                 <div class="large-12 medium-12 columns">
                   <div>
-                    <p>Telefoons</p>
+                    <h1>Telefoons</h1>
                   </div>
                 </div>
-                <div class="clickme medium-12 columns">
+                <div class="clickme medium-12 columns box-shadow">
                   <div class="panel">
                     <div class="iphone-headers">
                         <img src="images/iphone-4-icon.png" class="icons">
@@ -193,7 +193,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="medium-12 columns clickme">
+                <div class="medium-12 columns clickme box-shadow">
                   <div class="panel">
                     <div class="iphone-headers">
                         <img src="images/iphone-4-icon.png" class="icons">
@@ -278,7 +278,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="medium-12 columns clickme">
+                <div class="medium-12 columns clickme box-shadow">
                   <div class="panel">
                     <div class="iphone-headers">
                         <img src="images/iphone-5s-icon.png" class="icons">
@@ -363,7 +363,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="medium-12 columns clickme">
+                <div class="medium-12 columns clickme box-shadow">
                   <div class="panel">
                     <div class="iphone-headers">
                         <img src="images/iphone-5c-icon.png" class="icons">
@@ -448,7 +448,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="medium-12 columns clickme">
+                <div class="medium-12 columns clickme box-shadow">
                   <div class="panel">
                     <div class="iphone-headers">
                         <img src="images/iphone-5s-icon.png" class="icons">
@@ -533,7 +533,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="medium-12 columns clickme">
+                <div class="medium-12 columns clickme box-shadow">
                   <div class="panel">
                     <div class="iphone-headers">
                         <img src="images/iphone-6-plus-icon.png" class="icons">
@@ -618,7 +618,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="medium-12 columns clickme">
+                <div class="medium-12 columns clickme box-shadow">
                   <div class="panel">
                     <div class="iphone-headers">
                         <img src="images/iphone-6-plus-icon.png" class="icons">
@@ -707,9 +707,9 @@
             </div>
             <div class="row">
               <div class="large-3 show-for-large-up columns">
-                <div class="panel">
+                <div class="box-shadow panel">
                   <div class="steps-center">
-                        <h3>Hoe werkt het?</h3>
+                        <h2>Hoe werkt het?</h2>
                             <ol>
                                 <li>Selecteer uw iphone en schade!</li>
                                 <li>Vul uw gegevens in.</li>
@@ -733,7 +733,7 @@
                   <form action="mailverzonden.php" method="post">
                     <div class="row">
                       <div class="large-12 columns">
-                        <h5>Vragen/reparatie? vul het formulier in:</h5>
+                        <h1>Vragen/reparatie? vul het formulier in:</h1>
                         <label>Over welke telefoon gaat het?</label>
                         <select name="WhitchPhone">
                             <option value="Ik kan geen keus maken">Ik kan geen keus maken</option>

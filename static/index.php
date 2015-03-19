@@ -12,7 +12,7 @@
   <body>
 
         <div class="pageHeader">
-            <div class="row">
+            <div class="row show-for-medium-up">
               <div class="large-12 columns">
                 <h1>Telefoon</h1>
               </div>
@@ -66,7 +66,7 @@
         </ul>
 
 
-    <div class="wrapper">
+   
       <div class="off-canvas-wrap" data-offcanvas>
       <div class="inner-wrap">
         <nav class="tab-bar">
@@ -90,6 +90,10 @@
           </ul>
         </aside>
 
+
+
+
+      <div class="wrapper">
         <section class="main-section">
           <div class="row">
             <div class="large-12 columns">
@@ -117,8 +121,8 @@
                       <div class="showtekst" >
                         <table class="prijs-lijst">
                             <tr class="first-child-table">
-                                <td class="left">Reparatie</th>
-                                <td class="right">Prijs incl. BTW</th>
+                                <td class="left">Reparatie</td>
+                                <td class="right">Prijs incl. BTW</td>
                             </tr>
                             <td class="underline"></td>
                             <tr>
@@ -202,8 +206,8 @@
                       <div class="showtekst" >
                         <table class="prijs-lijst">
                             <tr class="first-child-table">
-                                <td class="left">Reparatie</th>
-                                <td class="right">Prijs incl. BTW</th>
+                                <td class="left">Reparatie</td>
+                                <td class="right">Prijs incl. BTW</td>
                             </tr>
                             <td class="underline"></td>
                             <tr>
@@ -289,8 +293,8 @@
                       <div class="showtekst" >
                         <table class="prijs-lijst">
                             <tr class="first-child-table">
-                                <td class="left">Reparatie</th>
-                                <td class="right">Prijs incl. BTW</th>
+                                <td class="left">Reparatie</td>
+                                <td class="right">Prijs incl. BTW</td>
                             </tr>
                             <td class="underline"></td>
                             <tr>
@@ -375,8 +379,8 @@
                       <div class="showtekst" >
                         <table class="prijs-lijst">
                             <tr class="first-child-table">
-                                <td class="left">Reparatie</th>
-                                <td class="right">Prijs incl. BTW</th>
+                                <td class="left">Reparatie</td>
+                                <td class="right">Prijs incl. BTW</td>
                             </tr>
                             <td class="underline"></td>
                             <tr>
@@ -461,8 +465,8 @@
                       <div class="showtekst" >
                         <table class="prijs-lijst">
                             <tr class="first-child-table">
-                                <td class="left">Reparatie</th>
-                                <td class="right">Prijs incl. BTW</th>
+                                <td class="left">Reparatie</td>
+                                <td class="right">Prijs incl. BTW</td>
                             </tr>
                             <td class="underline"></td>
                             <tr>
@@ -547,8 +551,8 @@
                       <div class="showtekst" >
                         <table class="prijs-lijst">
                             <tr class="first-child-table">
-                                <td class="left">Reparatie</th>
-                                <td class="right">Prijs incl. BTW</th>
+                                <td class="left">Reparatie</td>
+                                <td class="right">Prijs incl. BTW</td>
                             </tr>
                             <td class="underline"></td>
                             <tr>
@@ -633,8 +637,8 @@
                       <div class="showtekst" >
                         <table class="prijs-lijst">
                             <tr class="first-child-table">
-                                <td class="left">Reparatie</th>
-                                <td class="right">Prijs incl. BTW</th>
+                                <td class="left">Reparatie</td>
+                                <td class="right">Prijs incl. BTW</td>
                             </tr>
                             <td class="underline"></td>
                             <tr>
@@ -715,18 +719,21 @@
               <div class="large-3 show-for-large-up columns">
                 <div class="box-shadow panel">
                   <div class="steps-center">
-                        <h2>Hoe werkt het?</h2>
-                            <ol>
-                                <li>Selecteer uw iphone en schade!</li>
-                                <li>Vul uw gegevens in.</li>
-                                <li>Verstuur het formulier.</li>
-                                <li>Wij maken een afspraak met u.</li>
-                            </ol>
-                        </div>
+                    <h2>Hoe werkt het?</h2>
+                        <ol>
+                            <li>Selecteer uw iphone en schade!</li>
+                            <li>Vul uw gegevens in.</li>
+                            <li>Verstuur het formulier.</li>
+                            <li>Wij maken een afspraak met u.</li>
+                        </ol>
+                    </div>
                 </div>
+              </div>
             </div>
           </div>
-          </div>
+          </section>
+        </div>
+      
               <script>
                  $( ".clickme" ).click(function() {
                     $(this).find('.showtekst').toggle("slow", function () {
@@ -745,7 +752,6 @@
                   });
               </script>
 
-              <hr />
             <section id="BestelForm">
                   <form action="mailverzonden.php" method="post">
                     <div class="row">
@@ -853,18 +859,16 @@
                         <textarea name="Toevoeging" placeholder="belangrijke toevoegingen kunt u hier melden zoals meerdere schades of vragen"></textarea>
                       </div>
                     </div>
-                    <div class="row collapse right">
+                    <div class="row">
                       <div class="large-12 columns">
                         <button class="small button" type="submit" name="submit" value="Verstuur">Verstuur</button>
                       </div>
                     </div>
                   </form>
               </section>
-            </div>
-        </section>
       </div>
     </div>
-    </div>
+
 
         <!--Footer-->
         <div class="pageFooter">
@@ -876,6 +880,7 @@
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/foundation/js/foundation.min.js"></script>
         <script src="js/app.js"></script>
-  </div>
+</div>
+</div>
   </body>
 </html>

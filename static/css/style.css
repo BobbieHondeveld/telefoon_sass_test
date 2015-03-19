@@ -6266,6 +6266,26 @@ select, textarea, input[type="text"] {
           box-shadow: 0.03125rem 0.03125rem 0.1875rem gray;
   border: none; }
 
+.buttonswitch {
+  background-image: url("/images/min.png");
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  background-color: green;
+  float: right; }
+
+.buttonswitchtoggle {
+  background-image: url("/images/min.png");
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+  height: 24px;
+  width: 24px;
+  background-color: green;
+  float: right; }
+
 .pageHeader {
   position: absolute;
   width: 100%;
@@ -6369,6 +6389,11 @@ select, textarea, input[type="text"] {
           position: relative;
           top: 18px !important;
           margin-left: 10px; }
+        .contentBlocken .clickme .panel .iphone-headers .plusMinStyling {
+          float: right;
+          margin: 1.5625rem 1.875rem 0 0;
+          -webkit-filter: opacity(20%);
+                  filter: opacity(20%); }
       .contentBlocken .clickme .panel .showtekst {
         display: none;
         margin-top: 20px;

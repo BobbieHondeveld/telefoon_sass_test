@@ -6,3 +6,20 @@ select, textarea, input[type="text"]{
 	box-shadow: rem-calc(0.5 0.5 3) gray;
 	border:none;
 }
+.buttonswitch{ 
+	background-image: url("/images/min.png");
+	background-repeat: no-repeat;
+	height:24px;
+	width:24px;
+	background-color:green;
+	float:right;
+}
+.buttonswitchtoggle{
+	background-image: url("/images/min.png");
+	background-repeat: no-repeat;
+	transform: rotate(90deg);
+	height:24px;
+	width:24px;
+	background-color:green;
+	float:right;
+}

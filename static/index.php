@@ -112,7 +112,7 @@
                     <div class="iphone-headers">
                         <img src="images/iphone-4-icon.png" class="icons">
                         <p class="iphone-title">Iphone 4</p>
-                        <img id="click_me" style="float:right; margin-right:10px; margin-top:20px;" src="images/plus.png">
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
                     </div>
                       <div class="showtekst" >
                         <table class="prijs-lijst">
@@ -198,6 +198,7 @@
                     <div class="iphone-headers">
                         <img src="images/iphone-4-icon.png" class="icons">
                         <p class="iphone-title">Iphone 4s</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
                       <div class="showtekst" >
                         <table class="prijs-lijst">
                             <tr class="first-child-table">
@@ -283,6 +284,7 @@
                     <div class="iphone-headers">
                         <img src="images/iphone-5s-icon.png" class="icons">
                         <p class="iphone-title">Iphone 5</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
                     </div>
                       <div class="showtekst" >
                         <table class="prijs-lijst">
@@ -368,6 +370,7 @@
                     <div class="iphone-headers">
                         <img src="images/iphone-5c-icon.png" class="icons">
                         <p class="iphone-title">Iphone 5c</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
                     </div>
                       <div class="showtekst" >
                         <table class="prijs-lijst">
@@ -453,6 +456,7 @@
                     <div class="iphone-headers">
                         <img src="images/iphone-5s-icon.png" class="icons">
                         <p class="iphone-title">Iphone 5s</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
                     </div>
                       <div class="showtekst" >
                         <table class="prijs-lijst">
@@ -538,6 +542,7 @@
                     <div class="iphone-headers">
                         <img src="images/iphone-6-plus-icon.png" class="icons">
                         <p class="iphone-title">Iphone 6</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
                     </div>
                       <div class="showtekst" >
                         <table class="prijs-lijst">
@@ -623,6 +628,7 @@
                     <div class="iphone-headers">
                         <img src="images/iphone-6-plus-icon.png" class="icons">
                         <p class="iphone-title">Iphone 6+</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
                     </div>
                       <div class="showtekst" >
                         <table class="prijs-lijst">
@@ -723,9 +729,20 @@
           </div>
               <script>
                  $( ".clickme" ).click(function() {
-                    $(this).find('.showtekst').html("Yes", function () {
+                    $(this).find('.showtekst').toggle("slow", function () {
                   });
+  
+                    //$(".plusMinToggle").attr("src", "images/min.png");
                 });
+                 $('.clickme').click(function(){
+                      if (!$("img.plusMinStyling",this).hasClass('plusMin')) {
+                          $("img.plusMinStyling", this).attr('src', 'images/plus.png');
+                          $("img.plusMinStyling", this).addClass('plusMin')
+                      } else  {
+                          $("img.plusMinStyling", this).attr('src', 'images/min.png');
+                          $("img.plusMinStyling", this).removeClass('plusMin')
+                      }
+                  });
               </script>
 
               <hr />

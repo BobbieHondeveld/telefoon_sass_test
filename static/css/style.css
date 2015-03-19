@@ -6291,21 +6291,19 @@ select, textarea, input[type="text"] {
   width: 100%;
   z-index: 100;
   padding: 0 1.25rem; }
-  .pageHeader h1 {
-    color: blue; }
   .pageHeader .menubar {
     width: 100%;
     margin: 0;
     list-style: none;
     height: auto;
     overflow: hidden;
+    -webkit-box-shadow: 0.0625rem 0.0625rem 0.1875rem #001921;
+            box-shadow: 0.0625rem 0.0625rem 0.1875rem #001921;
     /* Background color and gradients */
-    background: #014464;
-    background: -webkit-gradient(linear, 0% 0%, 0% 70%, from(#0272a7), to(#01496b));
+    background: #008CBA;
+    background: -webkit-gradient(linear, 0% 0%, 0% 70%, from(#008CBA), to(#0080ab));
     /* Borders */
-    border: 1px solid #01496b;
-    -webkit-box-shadow: inset 0px 0px 1px #01496b;
-    box-shadow: inset 0px 0px 1px #01496b; }
+    border: 1px solid #0088b5; }
     .pageHeader .menubar li {
       float: left;
       display: block;
@@ -6313,8 +6311,8 @@ select, textarea, input[type="text"] {
       position: relative;
       margin-top: 12px;
       margin-bottom: 17px;
-      border-right: 1px solid #013e5b;
-      border-left: 1px solid #0275ac; }
+      border-right: 1px solid #00526e;
+      border-left: 1px solid #0090bf; }
       .pageHeader .menubar li a {
         color: white;
         padding-left: 20px;
@@ -6322,7 +6320,7 @@ select, textarea, input[type="text"] {
         padding-top: 20px;
         padding-bottom: 20px; }
         .pageHeader .menubar li a:hover {
-          background: -webkit-gradient(linear, 0% 0%, 0% 70%, from(#0272a7), to(#013851)); }
+          background: -webkit-gradient(linear, 0% 0%, 0% 70%, from(#008CBA), to(#004b63)); }
     .pageHeader .menubar li:first-child {
       border-left: none; }
     .pageHeader .menubar li:last-child {

@@ -112,6 +112,7 @@
                     <div class="iphone-headers">
                         <img src="images/iphone-4-icon.png" class="icons">
                         <p class="iphone-title">Iphone 4</p>
+                        <img id="click_me" style="float:right; margin-right:10px; margin-top:20px;" src="images/plus.png">
                     </div>
                       <div class="showtekst" >
                         <table class="prijs-lijst">
@@ -721,18 +722,15 @@
           </div>
           </div>
               <script>
-
-
-                  $( ".clickme" ).click(function() {
-                    $(this).find('.showtekst').toggle("slow", function () {
+                 $( ".clickme" ).click(function() {
+                    $(this).find('.showtekst').html("Yes", function () {
                   });
                 });
-
               </script>
 
               <hr />
             <section id="BestelForm">
-                  <form action="mailverzonden.php" method="post">                  
+                  <form action="mailverzonden.php" method="post">
                     <div class="row">
                       <div class="large-12 columns">
                         <h5>Vragen/reparatie? vul het formulier in:</h5>

@@ -10,3 +10,16 @@
 		float:left;
 	}
 }
+
+#sticky-anchor {
+	height:20px;
+	margin-top:42px;
+}
+.stick {
+    position: fixed;
+    margin:rem-calc(20 0 0 0);
+    top: 0;
+    width:23%;
+    max-width:rem-calc(338);
+    float:right;
+}

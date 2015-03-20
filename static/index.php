@@ -14,11 +14,6 @@
         <div class="pageHeader">
             <div class="row show-for-medium-up">
               <div class="large-12 columns">
-                <h1>Telefoon</h1>
-              </div>
-            </div>
-            <div class="row show-for-medium-up">
-              <div class="large-12 columns">
                     <ul class="menubar">
                         <li><a href="#">home</a></li>
                         <li><a href="#">Telefoons</a></li>
@@ -715,9 +710,10 @@
                 </div>
               </div>
             </div>
+            <div id="sticky-anchor"></div>
             <div class="row">
               <div class="large-3 show-for-large-up columns">
-                <div class="box-shadow panel">
+                <div id="sticky" class="box-shadow panel">
                   <div class="steps-center">
                     <h2>Hoe werkt het?</h2>
                         <ol>
@@ -735,6 +731,22 @@
         
       
               <script>
+
+              function sticky_relocate() {
+                  var window_top = $(window).scrollTop();
+                  var div_top = $('#sticky-anchor').offset().top;
+                  if (window_top > div_top) {
+                      $('#sticky').addClass('stick');
+                  } else {
+                      $('#sticky').removeClass('stick');
+                  }
+              }
+
+              $(function () {
+                  $(window).scroll(sticky_relocate);
+                  sticky_relocate();
+              });
+
                  $( ".clickme" ).click(function() {
                     $(this).find('.showtekst').toggle("slow", function () {
                   });

@@ -6300,17 +6300,16 @@ section {
   padding: 0 1.25rem; }
   .pageHeader .menubar {
     width: 100%;
-    margin: 0;
+    margin: 1.875rem 0 0 0;
     list-style: none;
     height: auto;
     overflow: hidden;
-    -webkit-box-shadow: 0.0625rem 0.0625rem 0.1875rem #001921;
-            box-shadow: 0.0625rem 0.0625rem 0.1875rem #001921;
+    -webkit-box-shadow: 0.0625rem 0.0625rem 0.1875rem darkgray;
+            box-shadow: 0.0625rem 0.0625rem 0.1875rem darkgray;
     /* Background color and gradients */
     background: #008CBA;
-    background: -webkit-gradient(linear, 0% 0%, 0% 70%, from(#008CBA), to(#0080ab));
     /* Borders */
-    border: 1px solid #0088b5; }
+    border: 1px solid #008CBA; }
     .pageHeader .menubar li {
       float: left;
       display: block;
@@ -6318,7 +6317,7 @@ section {
       position: relative;
       margin-top: 12px;
       margin-bottom: 17px;
-      border-right: 1px solid #00526e;
+      border-right: 1px solid #007196;
       border-left: 1px solid #0090bf; }
       .pageHeader .menubar li a {
         color: white;
@@ -6327,7 +6326,7 @@ section {
         padding-top: 20px;
         padding-bottom: 20px; }
         .pageHeader .menubar li a:hover {
-          background: -webkit-gradient(linear, 0% 0%, 0% 70%, from(#008CBA), to(#004b63)); }
+          background: #0080ab; }
     .pageHeader .menubar li:first-child {
       border-left: none; }
     .pageHeader .menubar li:last-child {
@@ -6444,3 +6443,15 @@ section {
   .steps-center .steps {
     display: inline-block;
     float: left; }
+
+#sticky-anchor {
+  height: 20px;
+  margin-top: 42px; }
+
+.stick {
+  position: fixed;
+  margin: 1.25rem 0 0 0;
+  top: 0;
+  width: 23%;
+  max-width: 21.125rem;
+  float: right; }

@@ -1,4 +1,7 @@
 .wrapper{
 	background-color:$Background-color;
 	padding:rem-calc(0 20);
+	#startPage{
+		height:rem-calc(50);
+	}
 }

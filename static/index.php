@@ -11,86 +11,22 @@
   </head>
   <body>
 
-        <div class="pageHeader">
-            <div class="row show-for-medium-up">
-              <div class="large-12 columns">
-                    <ul class="menubar">
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">Telefoons</a></li>
-                        <li><a href="#">Wie zijn wij</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
-              </div>
-            </div>
-        </div>
-
-        <ul class="visualHome" data-orbit>
-          <li class="slide" data-orbit-slide="headline-1" style="background:url('images/waterschade.png');">
-              <div class="small-8 medium-6 large-4 columns right">
-                  <div class="orbitcontentblock">
-                      <h3>waterschade</h1>
-                      <p>Lorem ipsum dolor.</p>
-                      <p>Lorem ipsum dolor.</p>
-                      <p>Lorem ipsum dolor.</p>
-                      <p>Lorem ipsum dolor.</p>
-                  </div>
-              </div>
-          </li>
-          <li class="slide" data-orbit-slide="headline-2" style="background:url('images/reparatie.png');">
-              <div class="small-8 large-4 columns right">
-                  <div class="orbitcontentblock">
-                      <h3>reparatie</h1>
-                      <p>Lorem ipsum dolor.</p>
-                      <p>Lorem ipsum dolor.</p>
-                      <p>Lorem ipsum dolor.</p>
-                      <p>Lorem ipsum dolor.</p>
-                  </div>
-              </div>
-          </li>
-          <li class="slide" data-orbit-slide="headline-3" style="background:url('images/achtergrond.jpg');">
-              <div class="small-8 large-4 columns right">
-                  <div class="orbitcontentblock">
-                      <h3>achtergrond</h1>
-                      <p>Lorem ipsum dolor.</p>
-                      <p>Lorem ipsum dolor.</p>
-                      <p>Lorem ipsum dolor.</p>
-                      <p>Lorem ipsum dolor.</p>
-                  </div>
-              </div>
-          </li>
-        </ul>
-
-
-   
-      <div class="off-canvas-wrap" data-offcanvas>
-      <div class="inner-wrap">
-        <nav class="tab-bar">
-          <section class="left-small">
-            <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
-          </section>
-
-
-          <section class="middle tab-bar-section">
-            <h1 class="title">Foundation</h1>
-          </section>
-        </nav>
-
-        <aside class="left-off-canvas-menu">
-          <ul class="off-canvas-list">
-            <li><label>Menu</label></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Telefoons</a></li>
-            <li><a href="#">Wie zijn wij</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </aside>
-
-
-
-
+      
+    <div class="cd-fixed-bg cd-bg-1">
+      <div class="row">
+        <img src="images/bobs.png" width="300" alt="" class="bobsPhoneRepair">
+      </div>
+        <div class="row">
+          <a href="#startPage"><div class="small-12 small-centered columns arrowDown">
+            <p>Scroll / klik voor site</p>    
+            <img src="images/arrow-down.png" height="150" width="200" alt="">
+          </div></a>
+      </div>
+    </div> 
       <div class="wrapper">
         <section class="main-section">
           <div class="row">
+            <div class="small-12 columns" id="startPage"></div>
             <div class="large-12 columns">
               <h1>Goedkope en snelle Iphone reparaties</h1>
               <div class="box-shadow panel">
@@ -753,6 +689,21 @@
   
                     //$(".plusMinToggle").attr("src", "images/min.png");
                 });
+                 $(function() {
+                    $('a[href*=#]:not([href=#])').click(function() {
+                      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                        if (target.length) {
+                          $('html,body').animate({
+                            scrollTop: target.offset().top
+                          }, 1000);
+                          return false;
+                        }
+                      }
+                    });
+                  });
+
                  $('.clickme').click(function(){
                       if (!$("img.plusMinStyling",this).hasClass('plusMin')) {
                           $("img.plusMinStyling", this).attr('src', 'images/plus.png');
@@ -896,7 +847,6 @@
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/foundation/js/foundation.min.js"></script>
         <script src="js/app.js"></script>
-</div>
-</div>
+
   </body>
 </html>

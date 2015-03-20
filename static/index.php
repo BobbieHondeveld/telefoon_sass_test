@@ -13,11 +13,11 @@
 
       
     <div class="cd-fixed-bg cd-bg-1">
-      <div class="row">
+
         <img src="images/bobs.png" width="300" alt="" class="bobsPhoneRepair">
-      </div>
+
         <div class="row">
-          <a href="#startPage"><div class="small-12 small-centered columns arrowDown">
+          <a href="#startPage"><div class="small-12 columns arrowDown">
             <p>Scroll / klik voor site</p>    
             <img src="images/arrow-down.png" height="150" width="200" alt="">
           </div></a>

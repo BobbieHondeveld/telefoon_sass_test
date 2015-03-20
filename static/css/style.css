@@ -6287,7 +6287,11 @@ select, textarea, input[type="text"] {
   float: right; }
 
 section {
-  background-color: lightgray; }
+  background-color: #FEF9F0; }
+
+.panelStyling, .panel, .contentBlocken .clickme .panel {
+  background-color: white;
+  border: none; }
 
 .pageHeader {
   position: absolute;
@@ -6367,7 +6371,7 @@ section {
           text-shadow: 1px 1px 1px white; }
 
 .wrapper {
-  background-color: lightgray;
+  background-color: #FEF9F0;
   padding: 0 1.25rem; }
 
 .contentBlocken {
@@ -6376,10 +6380,8 @@ section {
     background-color: white;
     margin-bottom: 20px; }
     .contentBlocken .clickme .panel {
-      background-color: white;
       padding: 0px;
-      padding-top: 20px;
-      border: none; }
+      padding-top: 20px; }
       .contentBlocken .clickme .panel .iphone-headers {
         margin-bottom: 20px;
         background-color: white; }
@@ -6429,6 +6431,9 @@ section {
           float: right;
           margin-right: 110px;
           width: 190px; }
+
+#BestelForm textarea {
+  height: 6.25rem; }
 
 .steps-center {
   margin-top: 75px;

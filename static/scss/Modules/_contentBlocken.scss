@@ -5,10 +5,9 @@
 		margin-bottom: 20px;
 
 		.panel{
-			background-color:white;
+			@extend .panelStyling; //Staat in defaulds.scss
 			padding:0px;
 			padding-top: 20px;
-			border: none;
 			.iphone-headers{
 				margin-bottom: 20px;
 				background-color: white;

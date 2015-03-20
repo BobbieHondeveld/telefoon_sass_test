@@ -24,5 +24,16 @@ select, textarea, input[type="text"]{
 	float:right;
 }
 section{
-	background-color:lightgray;
+	background-color:$Background-color;
 }
+.panelStyling{
+	background-color:white;
+	// padding:0px;
+	// padding-top: 20px;
+	border: none;
+}
+.panel{
+	@extend .panelStyling;
+	
+}
+ 

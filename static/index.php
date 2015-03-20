@@ -732,7 +732,7 @@
             </div>
           </div>
           </section>
-        </div>
+        
       
               <script>
                  $( ".clickme" ).click(function() {
@@ -755,7 +755,7 @@
             <section id="BestelForm">
                   <form action="mailverzonden.php" method="post">
                     <div class="row">
-                      <div class="large-12 columns">
+                      <div class="large-9 columns">
                         <h1>Vragen/reparatie? vul het formulier in:</h1>
                         <label>Over welke telefoon gaat het?</label>
                         <select name="WhitchPhone">
@@ -771,12 +771,12 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="large-4 medium-4 columns">
+                      <div class="large-3 medium-4 columns">
                         <label>Heeft u een vraag of schade?</label>
                         <input type="radio" name="radioSoort" value="Vragen" required><label for="vragen">Vragen</label>
                         <input type="radio" name="radioSoort" value="Schade" required><label for="schade">Schade</label>
                       </div>
-                      <div class="large-4 medium-4 columns">
+                      <div class="large-3 medium-4 columns">
                         <select name="WhitchDamage">
                           <option value="Schade">Schade</option>
                           <option value="Niet van toepassing">Niet van toepassing</option>
@@ -797,7 +797,7 @@
                           <option value="Simkaart houder">Simkaart houder</option>
                         </select>
                       </div>
-                        <div class="large-4 medium-4 columns">
+                        <div class="large-3 medium-4 columns end">
                         <select name="WhitchDamage2">
                           <option value="Schade">Schade</option>
                           <option value="Niet van toepassing">Niet van toepassing</option>
@@ -820,47 +820,47 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="small-6 columns">
+                      <div class="small-6 large-4 columns">
                         <input type="text" name="Fname" placeholder="Voornaam" required/>
                       </div>
-                      <div class="small-6 columns">
+                      <div class="small-6 large-5 columns end">
                         <input type="text" name="Lname" placeholder="Achternaam" required/>
                       </div>
                     </div>
                     <div class="row">
-                      <div class="small-6 columns">
+                      <div class="small-6 large-4 columns">
                         <input type="text" name="email" placeholder="Email-adres" required/>
                       </div>
-                      <div class="small-6 columns">
+                      <div class="small-6 large-5 columns end">
                         <input type="text" name="telefoonNummer" placeholder="Telefoon nummer"/>
                       </div>
                     </div>
                     <div class="row">
-                      <div class="small-5 columns">
+                      <div class="small-5 large-3 columns">
                         <input type="text" name="plaats" placeholder="Plaats" required/>
                       </div>
-                      <div class="small-5 columns">
+                      <div class="small-5 large-3 columns">
                         <input type="text" name="straat" placeholder="Straat" required/>
                       </div>
-                      <div class="small-2 columns">
+                      <div class="small-2 large-3 columns end">
                         <input type="text" name="Hnummer" placeholder="Huisnummer" required/>
                       </div>
                     </div>
                     <div class="row">
-                      <div class="small-8 columns">
+                      <div class="small-6 large-4 columns">
                         <input type="text" name="imeiNummer" placeholder="Imei nummer" required/>
                     </div>
-                      <div class="small-4 columns">
+                      <div class="small-6 large-5 columns end">
                         <input type="text" name="ToegangsCode" placeholder="toegangs code" required/>
                       </div>
                     </div>
                     <div class="row">
-                      <div class="large-12 columns">
+                      <div class="large-9 small-12 columns">
                         <textarea name="Toevoeging" placeholder="belangrijke toevoegingen kunt u hier melden zoals meerdere schades of vragen"></textarea>
                       </div>
                     </div>
                     <div class="row">
-                      <div class="large-12 columns">
+                      <div class="large-9 small-12 columns end">
                         <button class="small button" type="submit" name="submit" value="Verstuur">Verstuur</button>
                       </div>
                     </div>
@@ -868,7 +868,7 @@
               </section>
       </div>
     </div>
-
+</div>
 
         <!--Footer-->
         <div class="pageFooter">

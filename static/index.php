@@ -13,7 +13,7 @@
 
       
     <div class="cd-fixed-bg cd-bg-1">
-
+        
         <img src="images/bobs.png" width="300" alt="" class="bobsPhoneRepair">
 
         <div class="row">
@@ -747,10 +747,10 @@
                   <form action="mailverzonden.php" method="post">
                     <div class="row">
                       <div class="large-9 columns">
-                        <div data-alert class="alert-box success">
+                        <!-- <div data-alert class="alert-box success">
                           Uw Email is verzonden! Wij Beandwoorden uw email zo spoedig mogelijk.
                           <a href="#" class="close">&times;</a>
-                        </div>
+                        </div> -->
                         <h1>Vragen/reparatie? vul het formulier in:</h1>
                         <label>Over welke telefoon gaat het?</label>
                         <select name="WhitchPhone">

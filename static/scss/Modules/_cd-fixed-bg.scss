@@ -5,7 +5,11 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	&.cd-bg-1 {
-	  background-image: url("../images/waterschade.png");
+	  	background-image: url("../images/header-image.jpg");
+	  	//filter: grayscale(80%) blur(2px);
+
+	}
+	.bobsPhoneRepair{
 	}
 	.arrowDown{
 		max-width:rem-calc(1200);

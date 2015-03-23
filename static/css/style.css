@@ -6427,13 +6427,9 @@ section {
             padding-left: 10px; }
         .contentBlocken .clickme .panel .showtekst .foto-popup {
           margin-bottom: 20px;
-          display: inline-block;
-          float: right;
           margin-right: 10%; }
         .contentBlocken .clickme .panel .showtekst .TelefoonRepareren {
-          float: right;
-          margin-right: 110px;
-          width: 190px; }
+          margin: 0.625rem 0 0 1.5625rem; }
 
 #BestelForm textarea {
   height: 6.25rem; }
@@ -6457,7 +6453,7 @@ section {
   margin: 1.25rem 0 0 0;
   top: 0;
   width: 23%;
-  max-width: 21.125rem;
+  max-width: 18rem;
   float: right; }
 
 .cd-fixed-bg {

@@ -125,7 +125,67 @@ $mail->IsHTML(true);
 
 $body             = "Geachte heer/mevrouw " . $Lname . 
 					"<br>Hierbij een bevestiging van de door u gemelde schade/ vraag aan www.BobsPhoneRepair.nl.<br><br>" .
-					"Voor meer vragen kunt u altijd mailen naar: bob@bobsphonerepair.nl<br>" .
+
+					"<table style='width:100%'>" .
+					  '<tr>' .
+					    "<td style='width:150px;'>Model</td>".
+					    "<td>" . $model . "</td>" . 
+					  '</tr>' .
+					  "<tr>" .
+					    "<td>Schade/Vragen</td>".
+					    "<td>" . $radioSoort . "</td>" . 
+					  "</tr>" .
+					  "<tr>" .
+					    "<td>Schade</td>".
+					    "<td>" . $schade . "</td>" . 
+					  "</tr>" .
+					  "<tr>" .
+					    "<td>Meerdere schades</td>".
+					    "<td>" . $schade2 . "</td>" . 
+					  "</tr>" .
+					  "<tr>" .
+					    "<td>Voornaam</td>".
+					    "<td>" . $Fname . "</td>" . 
+					  "</tr>" .
+					  "<tr>" .
+					    "<td>Achternaam</td>".
+					    "<td>" . $Lname . "</td>" . 
+					  "</tr>" .
+					  "<tr>" .
+					    "<td>E-mail</td>".
+					    "<td>" . $email . "</td>" . 
+					  "</tr>" .
+					  "<tr>" .
+					    "<td>TelefoonNummer</td>".
+					    "<td>" . $telefoonNummer . "</td>" . 
+					  "</tr>" .
+					  "<tr>" .
+					    "<td>Plaats</td>".
+					    "<td>" . $plaats . "</td>" . 
+					  "</tr>" .
+					  "<tr>" .
+					    "<td>Straat</td>".
+					    "<td>" . $straat . "</td>" . 
+					  "</tr>" .
+					   "<tr>" .
+					    "<td>Huisnummer</td>".
+					    "<td>" . $Hnummer . "</td>" . 
+					  "</tr>" .
+					   "<tr>" .
+					    "<td>Imeinummer</td>".
+					    "<td>" . $imeiNummer . "</td>" . 
+					  "</tr>" .
+					   "<tr>" .
+					    "<td>ToegangsCode</td>".
+					    "<td>" . $ToegangsCode . "</td>" . 
+					  "</tr>" .
+					  "<tr>" .
+					    "<td style='vertical-align: top;'>Aanvullende Informatie</td>".
+					    "<td>" . $Toevoeging . "</td>" . 
+					  "</tr>" . 
+					"</table>" .
+
+					"Voor meer vragen kunt u altijd mailen naar: bob@bobsphonerepair.nl<br><br>" .
 					"Met vriendelijke groet,<br>".
 					"<br>".
 					"BobsPhoneRepair";

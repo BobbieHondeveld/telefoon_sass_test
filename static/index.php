@@ -754,7 +754,7 @@
                         <h1>Vragen/reparatie? vul het formulier in:</h1>
                         <label>Over welke telefoon gaat het?</label>
                         <select name="WhitchPhone">
-                            <option value="Ik kan geen keus maken">Ik kan geen keus maken</option>
+                            <option value="Ik kan geen keus maken">Niet van toepassing</option>
                             <option value="Iphone 4">Iphone 4</option>
                             <option value="Iphone 4S">Iphone 4S</option>
                             <option value="Iphone 5">Iphone 5</option>
@@ -773,8 +773,7 @@
                       </div>
                       <div class="large-3 medium-4 columns">
                         <select name="WhitchDamage">
-                          <option value="Schade">Schade</option>
-                          <option value="Niet van toepassing">Niet van toepassing</option>
+                          <option value="Niet van toepassing">Schade /Niet van toepassing</option>
                           <option value="Scherm">Scherm</option>
                           <option value="Achterkant">Achterkant</option>
                           <option value="Home knop">Home knop</option>
@@ -794,8 +793,7 @@
                       </div>
                         <div class="large-3 medium-4 columns end">
                         <select name="WhitchDamage2">
-                          <option value="Schade">Schade</option>
-                          <option value="Niet van toepassing">Niet van toepassing</option>
+                          <option value="Niet van toepassing">Meerdere schades /Niet van toepassing</option>
                           <option value="Scherm">Scherm</option>
                           <option value="Achterkant">Achterkant</option>
                           <option value="Home knop">Home knop</option>
@@ -816,15 +814,15 @@
                     </div>
                     <div class="row">
                       <div class="small-6 large-4 columns">
-                        <input type="text" name="Fname" placeholder="Voornaam" required/>
+                        <input type="text" name="Fname" placeholder="Voornaam *" required/>
                       </div>
                       <div class="small-6 large-5 columns end">
-                        <input type="text" name="Lname" placeholder="Achternaam" required/>
+                        <input type="text" name="Lname" placeholder="Achternaam *" required/>
                       </div>
                     </div>
                     <div class="row">
                       <div class="small-6 large-4 columns">
-                        <input type="text" name="email" placeholder="Email-adres" required/>
+                        <input type="text" name="email" placeholder="Email-adres *" required/>
                       </div>
                       <div class="small-6 large-5 columns end">
                         <input type="text" name="telefoonNummer" placeholder="Telefoon nummer"/>
@@ -832,21 +830,21 @@
                     </div>
                     <div class="row">
                       <div class="small-5 large-3 columns">
-                        <input type="text" name="plaats" placeholder="Plaats" required/>
+                        <input type="text" name="plaats" placeholder="Plaats"/>
                       </div>
                       <div class="small-5 large-3 columns">
-                        <input type="text" name="straat" placeholder="Straat" required/>
+                        <input type="text" name="straat" placeholder="Straat"/>
                       </div>
                       <div class="small-2 large-3 columns end">
-                        <input type="text" name="Hnummer" placeholder="Huisnummer" required/>
+                        <input type="text" name="Hnummer" placeholder="Huisnummer"/>
                       </div>
                     </div>
                     <div class="row">
                       <div class="small-6 large-4 columns">
-                        <input type="text" name="imeiNummer" placeholder="Imei nummer" required/>
+                        <input type="text" name="imeiNummer" placeholder="Imei nummer *" required/>
                     </div>
                       <div class="small-6 large-5 columns end">
-                        <input type="text" name="ToegangsCode" placeholder="toegangs code" required/>
+                        <input type="text" name="ToegangsCode" placeholder="toegangs code"/>
                       </div>
                     </div>
                     <div class="row">

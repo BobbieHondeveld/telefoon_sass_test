@@ -93,7 +93,7 @@ $mail->SMTPSecure = "tls";                 // sets the prefix to the servier
 $mail->Host       = "smtp.gmail.com";      // sets GMAIL as the SMTP server
 $mail->Port       = 587;                   // set the SMTP port for the GMAIL server
 $mail->Username   = "bobbiehondeveld@gmail.com";  // GMAIL username
-$mail->Password   = "b0BB13!#";            // GMAIL password
+$mail->Password   = "b0BB13!#4";            // GMAIL password
 
 
 $mail->SetFrom('bobbiehondeveld@gmail.com', 'BobsTelefoon');
@@ -200,7 +200,7 @@ $mail2->SMTPSecure = "tls";                 // sets the prefix to the servier
 $mail2->Host       = "smtp.gmail.com";      // sets GMAIL as the SMTP server
 $mail2->Port       = 587;                   // set the SMTP port for the GMAIL server
 $mail2->Username   = "bobbiehondeveld@gmail.com";  // GMAIL username
-$mail2->Password   = "b0BB13!#";            // GMAIL password
+$mail2->Password   = "b0BB13!#4";            // GMAIL password
 
 
 $mail2->SetFrom('bobbiehondeveld@gmail.com', 'BobsTelefoon');
@@ -220,6 +220,5 @@ $mail2->AddAddress($address2, $FullName);
 if(!$mail2->Send()) {
   //echo "Mailer Error: " . $mail2->ErrorInfo;
 } else {
-
 }
     

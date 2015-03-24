@@ -6293,6 +6293,9 @@ section {
   background-color: white;
   border: none; }
 
+.paddingWeg {
+  padding: 0; }
+
 .pageHeader {
   position: absolute;
   width: 100%;
@@ -6337,17 +6340,6 @@ section {
   background: #008CBA;
   margin: 0;
   padding: 20px; }
-
-.tab-bar {
-  display: none; }
-
-@media only screen and (max-width: 40em) {
-  .tab-bar {
-    display: block; }
-
-  .gone-phone {
-    display: none; }
- }
 
 .orbit-container {
   height: 100%; }

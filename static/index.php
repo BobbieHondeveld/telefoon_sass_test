@@ -742,15 +742,21 @@
                       }
                   });
               </script>
-
+                                    
             <section id="BestelForm">
                   <form action="mailverzonden.php" method="post">
                     <div class="row">
                       <div class="large-9 columns">
-                        <!-- <div data-alert class="alert-box success">
-                          Uw Email is verzonden! Wij Beandwoorden uw email zo spoedig mogelijk.
-                          <a href="#" class="close">&times;</a>
-                        </div> -->
+                        <?php
+                            if (isset($_GET['status']) && $_GET['status']==1){
+                                ?> 
+                                    <div data-alert class="alert-box success">
+                                      Uw Email is verzonden! Wij Beandwoorden uw email zo spoedig mogelijk.
+                                      <a href="#" class="close">&times;</a>
+                                    </div>
+                                <?php
+                            }
+                        ?>
                         <h1>Vragen/reparatie? vul het formulier in:</h1>
                         <label>Over welke telefoon gaat het?</label>
                         <select name="WhitchPhone">

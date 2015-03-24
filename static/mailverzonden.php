@@ -1,6 +1,6 @@
 <?php
 
-header('location: index.php#BestelForm');
+header('location: index.php?status=1#BestelForm');
 
 require_once('class.phpmailer.php');
 //include("class.smtp.php"); // optional, gets called from within class.phpmailer.php if not already loaded
@@ -220,6 +220,6 @@ $mail2->AddAddress($address2, $FullName);
 if(!$mail2->Send()) {
   //echo "Mailer Error: " . $mail2->ErrorInfo;
 } else {
-alert("Hello! I am an alert box!!");
+
 }
     

@@ -1,4 +1,5 @@
 /*
+<<<<<<< HEAD
 Error: File to import not found or unreadable: foundation/functions.
        Load paths:
          
@@ -74,3 +75,337 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: File to import not found or unreadable: foundation/functions.\A        Load paths:\A          \A         on line 58 of scss/Settings/_settings.scss\A         from line 1 of scss\style.scss\A \A 53: //   \"foundation/components/switch\",\A 54: //   \"foundation/components/tables\",\A 55: //   \"foundation/components/tabs\",\A 56: //   \"foundation/components/thumbs\",\A 57: //   \"foundation/components/tooltips\",\A 58: //   \"foundation/components/top-bar\",\A 59: //   \"foundation/components/type\",\A 60: //   \"foundation/components/offcanvas\",\A 61: //   \"foundation/components/visibility\";"; }
+=======
+       * Print styles.
+       *
+       * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
+       * Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
+      */
+.print-only {
+  display: none !important; }
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000000 !important;
+    /* Black prints faster: h5bp.com/s */
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    text-shadow: none !important; }
+
+  .show-for-print {
+    display: block; }
+
+  .hide-for-print {
+    display: none; }
+
+  table.show-for-print {
+    display: table !important; }
+
+  thead.show-for-print {
+    display: table-header-group !important; }
+
+  tbody.show-for-print {
+    display: table-row-group !important; }
+
+  tr.show-for-print {
+    display: table-row !important; }
+
+  td.show-for-print {
+    display: table-cell !important; }
+
+  th.show-for-print {
+    display: table-cell !important; }
+
+  a, a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: ""; }
+
+  pre, blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  tr, img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2, h3 {
+    page-break-after: avoid; }
+
+  .hide-on-print {
+    display: none !important; }
+
+  .print-only {
+    display: block !important; }
+
+  .hide-for-print {
+    display: none !important; }
+
+  .show-for-print {
+    display: inherit !important; }
+ }
+
+/* Print visibility */
+@media print {
+  .show-for-print {
+    display: block; }
+
+  .hide-for-print {
+    display: none; }
+
+  table.show-for-print {
+    display: table !important; }
+
+  thead.show-for-print {
+    display: table-header-group !important; }
+
+  tbody.show-for-print {
+    display: table-row-group !important; }
+
+  tr.show-for-print {
+    display: table-row !important; }
+
+  td.show-for-print {
+    display: table-cell !important; }
+
+  th.show-for-print {
+    display: table-cell !important; }
+ }
+
+.box-shadow {
+  -webkit-box-shadow: 0.0625rem 0.0625rem 0.1875rem gray;
+          box-shadow: 0.0625rem 0.0625rem 0.1875rem gray;
+  border: none; }
+
+select, textarea, input[type="text"] {
+  -webkit-box-shadow: 0.03125rem 0.03125rem 0.1875rem gray;
+          box-shadow: 0.03125rem 0.03125rem 0.1875rem gray;
+  border: none; }
+
+.buttonswitch {
+  background-image: url("/images/min.png");
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  background-color: green;
+  float: right; }
+
+.buttonswitchtoggle {
+  background-image: url("/images/min.png");
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+  height: 24px;
+  width: 24px;
+  background-color: green;
+  float: right; }
+
+section {
+  background-color: #FEF9F0; }
+
+.panelStyling, .panel, .contentBlocken .clickme .panel {
+  background-color: white;
+  border: none; }
+
+.pageHeader {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  padding: 0 1.25rem; }
+  .pageHeader .menubar {
+    width: 100%;
+    margin: 1.875rem 0 0 0;
+    list-style: none;
+    height: auto;
+    overflow: hidden;
+    -webkit-box-shadow: 0.0625rem 0.0625rem 0.1875rem darkgray;
+            box-shadow: 0.0625rem 0.0625rem 0.1875rem darkgray;
+    /* Background color and gradients */
+    background: #008CBA;
+    /* Borders */
+    border: 1px solid #008CBA; }
+    .pageHeader .menubar li {
+      float: left;
+      display: block;
+      text-align: center;
+      position: relative;
+      margin-top: 12px;
+      margin-bottom: 17px;
+      border-right: 1px solid #007196;
+      border-left: 1px solid #0090bf; }
+      .pageHeader .menubar li a {
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px; }
+        .pageHeader .menubar li a:hover {
+          background: #0080ab; }
+    .pageHeader .menubar li:first-child {
+      border-left: none; }
+    .pageHeader .menubar li:last-child {
+      border-right: none; }
+
+.pageFooter {
+  color: white;
+  background: #008CBA;
+  margin: 0;
+  padding: 20px; }
+
+.tab-bar {
+  display: none; }
+
+@media only screen and (max-width: 40em) {
+  .tab-bar {
+    display: block; }
+
+  .gone-phone {
+    display: none; }
+ }
+
+.orbit-container {
+  height: 100%; }
+  .orbit-container .visualHome {
+    height: 100% !important; }
+    .orbit-container .visualHome .slide {
+      min-height: 100%;
+      background-repeat: no-repeat;
+      -webkit-background-size: cover !important;
+              background-size: cover !important;
+      background-attachment: fixed;
+      background-position: center center; }
+      .orbit-container .visualHome .slide .orbitcontentblock {
+        padding: 1.875rem;
+        background-color: rgba(255, 255, 255, 0.9);
+        -webkit-box-shadow: 1px 1px 1px rgba(192, 192, 192, 0.8);
+                box-shadow: 1px 1px 1px rgba(192, 192, 192, 0.8);
+        margin: 12.5rem 5rem 0 0; }
+        .orbit-container .visualHome .slide .orbitcontentblock h3 {
+          text-shadow: 1px 1px 1px white; }
+        .orbit-container .visualHome .slide .orbitcontentblock p {
+          text-shadow: 1px 1px 1px white; }
+
+.wrapper {
+  background-color: #FEF9F0;
+  padding: 0 1.25rem; }
+  .wrapper #startPage {
+    height: 3.125rem; }
+
+.contentBlocken {
+  padding: 10px; }
+  .contentBlocken .clickme {
+    background-color: white;
+    margin-bottom: 20px; }
+    .contentBlocken .clickme .panel {
+      padding: 0px;
+      padding-top: 20px; }
+      .contentBlocken .clickme .panel .iphone-headers {
+        margin-bottom: 20px;
+        background-color: white; }
+        .contentBlocken .clickme .panel .iphone-headers .icons {
+          display: inline; }
+        .contentBlocken .clickme .panel .iphone-headers .iphone-title {
+          display: inline;
+          position: relative;
+          top: 18px !important;
+          margin-left: 10px; }
+        .contentBlocken .clickme .panel .iphone-headers .plusMinStyling {
+          float: right;
+          margin: 1.5625rem 1.875rem 0 0;
+          -webkit-filter: opacity(20%);
+                  filter: opacity(20%); }
+      .contentBlocken .clickme .panel .showtekst {
+        display: none;
+        margin-top: 20px;
+        height: 100%; }
+        .contentBlocken .clickme .panel .showtekst .prijs-lijst {
+          border: none;
+          border-collapse: collapse;
+          display: inline-block;
+          float: left;
+          margin-left: 70px; }
+          .contentBlocken .clickme .panel .showtekst .prijs-lijst .first-child-table {
+            background-color: #F9F9F9;
+            font-weight: bold; }
+          .contentBlocken .clickme .panel .showtekst .prijs-lijst .underline {
+            border-bottom: 1px solid darkblue;
+            padding: 0; }
+          .contentBlocken .clickme .panel .showtekst .prijs-lijst .right {
+            border-left: 1px solid darkblue;
+            width: 125px;
+            float: right;
+            margin-left: 40px;
+            padding: 4px; }
+          .contentBlocken .clickme .panel .showtekst .prijs-lijst .left {
+            padding: 4px;
+            padding-left: 10px; }
+        .contentBlocken .clickme .panel .showtekst .foto-popup {
+          margin-bottom: 20px;
+          margin-right: 10%; }
+        .contentBlocken .clickme .panel .showtekst .TelefoonRepareren {
+          margin: 0.625rem 0 0 1.5625rem; }
+
+#BestelForm textarea {
+  height: 6.25rem; }
+
+.steps-center {
+  margin-top: 75px;
+  display: block; }
+  .steps-center .h3-steps {
+    display: inline-block;
+    float: left; }
+  .steps-center .steps {
+    display: inline-block;
+    float: left; }
+
+#sticky-anchor {
+  height: 20px;
+  margin-top: 42px; }
+
+.stick {
+  position: fixed;
+  margin: 1.25rem 0 0 0;
+  top: 0;
+  width: 23%;
+  max-width: 18rem;
+  float: right; }
+
+.cd-fixed-bg {
+  min-height: 100%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .cd-fixed-bg.cd-bg-1 {
+    background-image: url("../images/header-image.jpg"); }
+  .cd-fixed-bg .arrowDown {
+    max-width: 75rem;
+    text-align: center;
+    position: absolute;
+    bottom: 3.125rem;
+    color: White; }
+>>>>>>> parent of c0d431b... onhandig gespeel

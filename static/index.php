@@ -699,7 +699,6 @@
               function sticky_relocate() {
                   var window_top = $(window).scrollTop();
                   var div_top = $('#sticky-anchor').offset().top;
-                  var div_bottom = $('#sticky-anchor').offset().bottom;
                   if (window_top > div_top) {
                       $('#sticky').addClass('stick');
                   } else {
@@ -846,34 +845,12 @@
                         <input type="text" name="Hnummer" placeholder="Huisnummer"/>
                       </div>
                     </div>
-                    <script type="text/javascript">
-                        $( "#hover" ).click(function() {
-                            $(this).find('.hoverblock').toggle("slow", function () {
-                        });
-                    </script>
-                    <div class="row">
-                        <div class="small-12 large-9 columns">
-                            <div class="hoverblock" style=" height:100%; width:100%; background-color:green; margin:0 0 20px 0">
-                                <p>hallo world<p>
-                            </div>
-                        </div>
-                    </div>
                     <div class="row">
                       <div class="small-6 large-4 columns">
-                        <div id="hoverThis" class="small-1 columns paddingWeg">
-                            <img title="Het Imei nummer is uw telefoons numemr die kunt u vinden als u de telefoon aansluit op itunes op de home page. Doet de telefoon het helemaal niet meer dan kunt u dat melden in het invoer vield." src="images/vraagteken.png" style="padding-top:5px; float:left!important;">
-                        </div>
-                        <div class="small-11 columns">
-                            <input type="text" name="imeiNummer" placeholder="Imei nummer *" style="float:left!important;" required/>
-                        </div>
+                        <input type="text" name="imeiNummer" placeholder="Imei nummer *" required/>
                     </div>
                       <div class="small-6 large-5 columns end">
-                        <div class="small-1 columns paddingWeg">
-                            <img title="Wij gebruiken uw toegangs code alleen voor het testen van uw telefoon na het repareren. Heeft u geen toegangs code dan hoeft u hem ook niet in te voeren." src="images/vraagteken.png" style="padding-top:5px; float:left!important;">
-                        </div>
-                        <div class="small-11 columns">
-                            <input type="text" name="ToegangsCode" placeholder="toegangs code"/>
-                        </div>
+                        <input type="text" name="ToegangsCode" placeholder="toegangs code"/>
                       </div>
                     </div>
                     <div class="row">

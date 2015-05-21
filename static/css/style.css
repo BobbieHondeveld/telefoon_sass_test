@@ -401,6 +401,8 @@ section {
   background-repeat: no-repeat;
   background-position: center center; }
   .cd-fixed-bg.cd-bg-1 {
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
     background-image: url("../images/header-image.jpg"); }
   .cd-fixed-bg .arrowDown {
     max-width: 75rem;

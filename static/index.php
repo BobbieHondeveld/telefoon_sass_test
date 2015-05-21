@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Telefoon</title>
@@ -8,8 +8,8 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
 
       
     <div class="cd-fixed-bg cd-bg-1">
@@ -23,82 +23,680 @@
           </div></a>
       </div>
     </div> 
-    <div class="wrapper">
+      <div class="wrapper">
         <section class="main-section">
-            <div class="row">
-                <div class="small-12 columns" id="startPage"></div>
-                <div class="large-12 columns">
-                  <h1>Goedkope en snelle Iphone reparaties</h1>
-                  <div class="box-shadow panel">
-                    <p>vehicula nulla non arcu pulvinar, et semper leo semper. Pellentesque lobortis nisl elit, eu hendrerit arcu lobortis vitae. Donec quis turpis mauris. Nam fermentum magna mattis, dignissim sapien nec, sagittis augue. Donec et turpis at lacus placerat condimentum. Proin ultricies vitae ipsum eget euismod.</p>
+          <div class="row">
+            <div class="small-12 columns" id="startPage"></div>
+            <div class="large-12 columns">
+              <h1>Goedkope en snelle Iphone reparaties</h1>
+              <div class="box-shadow panel">
+                <p>vehicula nulla non arcu pulvinar, et semper leo semper. Pellentesque lobortis nisl elit, eu hendrerit arcu lobortis vitae. Donec quis turpis mauris. Nam fermentum magna mattis, dignissim sapien nec, sagittis augue. Donec et turpis at lacus placerat condimentum. Proin ultricies vitae ipsum eget euismod.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-9 medium-12 columns">
+              <div class="row contentBlocken">
+                <div class="large-12 medium-12 columns">
+                  <div>
+                    <h1>Telefoons</h1>
                   </div>
                 </div>
+                <div class="clickme medium-12 columns box-shadow">
+                  <div class="panel">
+                    <div class="iphone-headers">
+                        <img src="images/iphone-4-icon.png" class="icons">
+                        <p class="iphone-title">Iphone 4</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
+                    </div>
+                      <div class="row showtekst">
+                        <div class="large-8 medium-8 columns">
+                            <table class="prijs-lijst">
+                                <tr class="first-child-table">
+                                    <td class="left">Reparatie</td>
+                                    <td class="right">Prijs incl. BTW</td>
+                                </tr>
+                                <td class="underline"></td>
+                                <tr>
+                                    <td class="left">Scherm</td>
+                                    <td class="right">&euro;69,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Achterkant</td>
+                                    <td class="right">&euro;34,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Home knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Trilmodule</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Mute knop</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Volume knoppen</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Vergrendel knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">achter camera</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Voor camera</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Accu</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                    <td class="left">Dock connector (oplaat module)</td>
+                                    <td class="right">&euro;49,95</td>
+                                <tr>
+                                    <td class="left">Oorluidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Simkaart houder</td>
+                                    <td class="right">&euro;19,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">WI-FI antenne</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Ontvangst antenne</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Luidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr class="last">
+                                    <td class="left">Microfoon</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                            </table>
+                          </div>   
+                        <div class="large-4 medium-4 columns">
+                            <img src="images/iphone-4.png" alt="" class="foto-popup">
+                            <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="medium-12 columns clickme box-shadow">
+                  <div class="panel">
+                    <div class="iphone-headers">
+                        <img src="images/iphone-4-icon.png" class="icons">
+                        <p class="iphone-title">Iphone 4s</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
+                    <div class="row showtekst">
+                        <div class="large-8 medium-8 columns">
+                            <table class="prijs-lijst">
+                                <tr class="first-child-table">
+                                    <td class="left">Reparatie</td>
+                                    <td class="right">Prijs incl. BTW</td>
+                                </tr>
+                                <td class="underline"></td>
+                                <tr>
+                                    <td class="left">Scherm</td>
+                                    <td class="right">&euro;69,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Achterkant</td>
+                                    <td class="right">&euro;34,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Home knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Trilmodule</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Mute knop</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Volume knoppen</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Vergrendel knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">achter camera</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Voor camera</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Accu</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                    <td class="left">Dock connector (oplaat module)</td>
+                                    <td class="right">&euro;49,95</td>
+                                <tr>
+                                    <td class="left">Oorluidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Simkaart houder</td>
+                                    <td class="right">&euro;19,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">WI-FI antenne</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Ontvangst antenne</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Luidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr class="last">
+                                    <td class="left">Microfoon</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="large-4 medium-4 columns">
+                            <img src="images/iphone-4.png" class="foto-popup">
+                            <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="medium-12 columns clickme box-shadow">
+                  <div class="panel">
+                    <div class="iphone-headers">
+                        <img src="images/iphone-5s-icon.png" class="icons">
+                        <p class="iphone-title">Iphone 5</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
+                    </div>
+                    <div class="row showtekst">
+                        <div class="large-8 medium-8 columns">
+                            <table class="prijs-lijst">
+                                <tr class="first-child-table">
+                                    <td class="left">Reparatie</td>
+                                    <td class="right">Prijs incl. BTW</td>
+                                </tr>
+                                <td class="underline"></td>
+                                <tr>
+                                    <td class="left">Scherm</td>
+                                    <td class="right">&euro;69,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Achterkant</td>
+                                    <td class="right">&euro;34,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Home knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Trilmodule</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Mute knop</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Volume knoppen</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Vergrendel knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">achter camera</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Voor camera</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Accu</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                    <td class="left">Dock connector (oplaat module)</td>
+                                    <td class="right">&euro;49,95</td>
+                                <tr>
+                                    <td class="left">Oorluidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Simkaart houder</td>
+                                    <td class="right">&euro;19,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">WI-FI antenne</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Ontvangst antenne</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Luidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr class="last">
+                                    <td class="left">Microfoon</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="large-4 medium-4 columns">
+                            <img src="images/iphone-5.jpg" class="foto-popup">
+                            <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="medium-12 columns clickme box-shadow">
+                  <div class="panel">
+                    <div class="iphone-headers">
+                        <img src="images/iphone-5c-icon.png" class="icons">
+                        <p class="iphone-title">Iphone 5c</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
+                    </div>
+                    <div class="row showtekst">
+                        <div class="large-8 medium-8 columns">
+                            <table class="prijs-lijst">
+                                <tr class="first-child-table">
+                                    <td class="left">Reparatie</td>
+                                    <td class="right">Prijs incl. BTW</td>
+                                </tr>
+                                <td class="underline"></td>
+                                <tr>
+                                    <td class="left">Scherm</td>
+                                    <td class="right">&euro;69,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Achterkant</td>
+                                    <td class="right">&euro;34,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Home knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Trilmodule</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Mute knop</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Volume knoppen</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Vergrendel knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">achter camera</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Voor camera</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Accu</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                    <td class="left">Dock connector (oplaat module)</td>
+                                    <td class="right">&euro;49,95</td>
+                                <tr>
+                                    <td class="left">Oorluidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Simkaart houder</td>
+                                    <td class="right">&euro;19,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">WI-FI antenne</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Ontvangst antenne</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Luidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr class="last">
+                                    <td class="left">Microfoon</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="large-4 medium-4 columns">
+                            <img src="images/iphone5c.jpg" alt="" class="foto-popup">
+                            <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="medium-12 columns clickme box-shadow">
+                  <div class="panel">
+                    <div class="iphone-headers">
+                        <img src="images/iphone-5s-icon.png" class="icons">
+                        <p class="iphone-title">Iphone 5s</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
+                    </div>
+                    <div class="row showtekst">
+                        <div class="large-8 medium-8 columns">
+                            <table class="prijs-lijst">
+                                <tr class="first-child-table">
+                                    <td class="left">Reparatie</td>
+                                    <td class="right">Prijs incl. BTW</td>
+                                </tr>
+                                <td class="underline"></td>
+                                <tr>
+                                    <td class="left">Scherm</td>
+                                    <td class="right">&euro;69,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Achterkant</td>
+                                    <td class="right">&euro;34,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Home knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Trilmodule</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Mute knop</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Volume knoppen</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Vergrendel knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">achter camera</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Voor camera</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Accu</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                    <td class="left">Dock connector (oplaat module)</td>
+                                    <td class="right">&euro;49,95</td>
+                                <tr>
+                                    <td class="left">Oorluidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Simkaart houder</td>
+                                    <td class="right">&euro;19,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">WI-FI antenne</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Ontvangst antenne</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Luidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr class="last">
+                                    <td class="left">Microfoon</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="large-4 medium-4 columns">
+                            <img src="images/iphone-5.jpg" alt="" class="foto-popup">
+                            <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="medium-12 columns clickme box-shadow">
+                  <div class="panel">
+                    <div class="iphone-headers">
+                        <img src="images/iphone-6-plus-icon.png" class="icons">
+                        <p class="iphone-title">Iphone 6</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
+                    </div>
+                    <div class="row showtekst">
+                        <div class="large-8 medium-8 columns">
+                            <table class="prijs-lijst">
+                                <tr class="first-child-table">
+                                    <td class="left">Reparatie</td>
+                                    <td class="right">Prijs incl. BTW</td>
+                                </tr>
+                                <td class="underline"></td>
+                                <tr>
+                                    <td class="left">Scherm</td>
+                                    <td class="right">&euro;69,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Achterkant</td>
+                                    <td class="right">&euro;34,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Home knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Trilmodule</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Mute knop</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Volume knoppen</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Vergrendel knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">achter camera</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Voor camera</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Accu</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                    <td class="left">Dock connector (oplaat module)</td>
+                                    <td class="right">&euro;49,95</td>
+                                <tr>
+                                    <td class="left">Oorluidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Simkaart houder</td>
+                                    <td class="right">&euro;19,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">WI-FI antenne</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Ontvangst antenne</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Luidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr class="last">
+                                    <td class="left">Microfoon</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="large-4 medium-4 columns">
+                            <img src="images/iPhone-6-Plus.jpg" alt="" class="foto-popup">
+                            <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="medium-12 columns clickme box-shadow">
+                  <div class="panel">
+                    <div class="iphone-headers">
+                        <img src="images/iphone-6-plus-icon.png" class="icons">
+                        <p class="iphone-title">Iphone 6+</p>
+                        <img src="images/plus.png" height="24" width="24" class="plusMinStyling plusMin">
+                    </div>
+                    <div class="row showtekst">
+                        <div class="large-8 medium-8 columns">
+                            <table class="prijs-lijst">
+                                <tr class="first-child-table">
+                                    <td class="left">Reparatie</td>
+                                    <td class="right">Prijs incl. BTW</td>
+                                </tr>
+                                <td class="underline"></td>
+                                <tr>
+                                    <td class="left">Scherm</td>
+                                    <td class="right">&euro;69,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Achterkant</td>
+                                    <td class="right">&euro;34,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Home knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Trilmodule</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Mute knop</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Volume knoppen</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Vergrendel knop</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">achter camera</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Voor camera</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Accu</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                    <td class="left">Dock connector (oplaat module)</td>
+                                    <td class="right">&euro;49,95</td>
+                                <tr>
+                                    <td class="left">Oorluidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Simkaart houder</td>
+                                    <td class="right">&euro;19,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">WI-FI antenne</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Ontvangst antenne</td>
+                                    <td class="right">&euro;49,95</td>
+                                </tr>
+                                <tr>
+                                    <td class="left">Luidspreker</td>
+                                    <td class="right">&euro;39,95</td>
+                                </tr>
+                                <tr class="last">
+                                    <td class="left">Microfoon</td>
+                                    <td class="right">&euro;44,95</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="large-4 medium-4 columns">
+                            <img src="images/iPhone-6-Plus.jpg" alt="" class="foto-popup">
+                            <a href="#BestelForm" class="button small TelefoonRepareren">Telefoon repareren</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div id="sticky-anchor"></div>
             <div class="row">
-                <div class="large-9 medium-12 columns">
-                    <div class="row contentBlocken">
-                        <div class="large-12 medium-12 columns">
-                            <div>
-                                <h1>Telefoons</h1>
-                            </div>
-                        </div>
-
-                        <!-- tab panel -->
-                        <section class="elementPanel withTabs">
-                            <div class="title">
-                                <ul class="tabs" data-tab role="tablist">
-                                    <li class="tab-title active">
-                                        <a href="#panel1-1" role="tab" tabindex="1" aria-selected="true" controls="panel1-1">Inclusief verzendkosten</a>
-                                   </li>
-                                    <li class="tab-title">
-                                        <a href="#panel1-2" role="tab" tabindex="2" aria-selected="false" controls="panel1-2">Exclusief verzendkosten</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="content">
-                                <div class="tabs-content">
-                                    <section role="tabpanel" aria-hidden="false" class="content active" id="panel1-1">
-                                        <div class="large-12 columns">
-                                            <?php
-                                                require_once('exclusief.php'); 
-                                            ?>
-                                        </div>
-                                    </section>
-                                    <section role="tabpanel" aria-hidden="true" class="content" id="panel1-2">
-                                        <div class="large-12 columns">
-                                            <?php
-                                                require_once('inclusief.php'); 
-                                            ?>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </section>
-                        <!-- /tab panel -->
+              <div class="large-3 show-for-large-up columns">
+                <div id="sticky" class="box-shadow panel">
+                  <div class="steps-center">
+                    <h2>Hoe werkt het?</h2>
+                        <ol>
+                            <li>Selecteer uw iphone en schade!</li>
+                            <li>Vul uw gegevens in.</li>
+                            <li>Verstuur het formulier.</li>
+                            <li>Wij maken een afspraak met u.</li>
+                        </ol>
                     </div>
                 </div>
-                <div id="sticky-anchor"></div>
-                <div class="row">
-                    <div class="large-3 show-for-large-up columns">
-                        <div id="sticky" class="box-shadow panel">
-                            <div class="steps-center">
-                            <h2>Hoe werkt het?</h2>
-                                <ol>
-                                    <li>Selecteer uw iphone en schade!</li>
-                                    <li>Vul uw gegevens in.</li>
-                                    <li>Verstuur het formulier.</li>
-                                    <li>Wij maken een afspraak met u.</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
+          </div>
+          </section>
         
       
-            <script>
-                function sticky_relocate() {
+              <script>
+
+              function sticky_relocate() {
                   var window_top = $(window).scrollTop();
                   var div_top = $('#sticky-anchor').offset().top;
                   if (window_top > div_top) {
@@ -106,18 +704,18 @@
                   } else {
                       $('#sticky').removeClass('stick');
                   }
-                }
+              }
 
-                $(function () {
+              $(function () {
                   $(window).scroll(sticky_relocate);
                   sticky_relocate();
-                });
+              });
 
-                $( ".clickme" ).click(function() {
+                 $( ".clickme" ).click(function() {
                     $(this).find('.showtekst').toggle("slow", function () {
-                    });
-
-                //$(".plusMinToggle").attr("src", "images/min.png");
+                  });
+  
+                    //$(".plusMinToggle").attr("src", "images/min.png");
                 });
                  $(function() {
                     $('a[href*=#]:not([href=#])').click(function() {
@@ -143,43 +741,43 @@
                           $("img.plusMinStyling", this).removeClass('plusMin')
                       }
                   });
-            </script>
+              </script>
                                     
-        <section id="BestelForm">
-            <form action="mailverzonden.php" method="post">
-                <div class="row">
-                  <div class="large-9 columns">
-                    <?php
-                        if (isset($_GET['status']) && $_GET['status']==1){
-                            ?> 
-                                <div data-alert class="alert-box success">
-                                  Uw Email is verzonden! Wij Beandwoorden uw email zo spoedig mogelijk.
-                                  <a href="#" class="close">&times;</a>
-                                </div>
-                            <?php
-                        }
-                    ?>
-                    <h1>Vragen/reparatie? vul het formulier in:</h1>
-                    <label>Over welke telefoon gaat het?</label>
-                    <select name="WhitchPhone">
-                        <option value="Ik kan geen keus maken">Niet van toepassing</option>
-                        <option value="Iphone 4">Iphone 4</option>
-                        <option value="Iphone 4S">Iphone 4S</option>
-                        <option value="Iphone 5">Iphone 5</option>
-                        <option value="Iphone 5c">Iphone 5c</option>
-                        <option value="Iphone 5s">Iphone 5s</option>
-                        <option value="Iphone 6">Iphone 6</option>
-                        <option value="Iphone 6+">Iphone 6+</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="row">
-                    <div class="large-3 medium-4 columns">
+            <section id="BestelForm">
+                  <form action="mailverzonden.php" method="post">
+                    <div class="row">
+                      <div class="large-9 columns">
+                        <?php
+                            if (isset($_GET['status']) && $_GET['status']==1){
+                                ?> 
+                                    <div data-alert class="alert-box success">
+                                      Uw Email is verzonden! Wij Beandwoorden uw email zo spoedig mogelijk.
+                                      <a href="#" class="close">&times;</a>
+                                    </div>
+                                <?php
+                            }
+                        ?>
+                        <h1>Vragen/reparatie? vul het formulier in:</h1>
+                        <label>Over welke telefoon gaat het?</label>
+                        <select name="WhitchPhone">
+                            <option value="Ik kan geen keus maken">Niet van toepassing</option>
+                            <option value="Iphone 4">Iphone 4</option>
+                            <option value="Iphone 4S">Iphone 4S</option>
+                            <option value="Iphone 5">Iphone 5</option>
+                            <option value="Iphone 5c">Iphone 5c</option>
+                            <option value="Iphone 5s">Iphone 5s</option>
+                            <option value="Iphone 6">Iphone 6</option>
+                            <option value="Iphone 6+">Iphone 6+</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-3 medium-4 columns">
                         <label>Heeft u een vraag of schade?</label>
                         <input type="radio" name="radioSoort" value="Vragen" required><label for="vragen">Vragen</label>
                         <input type="radio" name="radioSoort" value="Schade" required><label for="schade">Schade</label>
-                    </div>
-                    <div class="large-3 medium-4 columns">
+                      </div>
+                      <div class="large-3 medium-4 columns">
                         <select name="WhitchDamage">
                           <option value="Niet van toepassing">Schade /Niet van toepassing</option>
                           <option value="Scherm">Scherm</option>
@@ -198,8 +796,8 @@
                           <option value="Microfoon">Microfoon</option>
                           <option value="Simkaart houder">Simkaart houder</option>
                         </select>
-                    </div>
-                    <div class="large-3 medium-4 columns end">
+                      </div>
+                        <div class="large-3 medium-4 columns end">
                         <select name="WhitchDamage2">
                           <option value="Niet van toepassing">Meerdere schades /Niet van toepassing</option>
                           <option value="Scherm">Scherm</option>
@@ -218,32 +816,35 @@
                           <option value="Microfoon">Microfoon</option>
                           <option value="Simkaart houder">Simkaart houder</option>
                         </select>
+                      </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="small-6 large-4 columns">
+                    <div class="row">
+                      <div class="small-6 large-4 columns">
                         <input type="text" name="Fname" placeholder="Voornaam *" required/>
-                    </div>
-                    <div class="small-6 large-5 columns end">
+                      </div>
+                      <div class="small-6 large-5 columns end">
                         <input type="text" name="Lname" placeholder="Achternaam *" required/>
+                      </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="small-6 large-4 columns">
+                    <div class="row">
+                      <div class="small-6 large-4 columns">
                         <input type="text" name="email" placeholder="Email-adres *" required/>
-                    </div>
-                    <div class="small-6 large-5 columns end">
+                      </div>
+                      <div class="small-6 large-5 columns end">
                         <input type="text" name="telefoonNummer" placeholder="Telefoon nummer"/>
+                      </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="small-5 large-3 columns">
+                    <div class="row">
+                      <div class="small-5 large-3 columns">
                         <input type="text" name="plaats" placeholder="Plaats"/>
-                    </div>
-                    <div class="small-5 large-3 columns">
+                      </div>
+                      <div class="small-5 large-3 columns">
                         <input type="text" name="straat" placeholder="Straat"/>
+                      </div>
+                      <div class="small-2 large-3 columns end">
+                        <input type="text" name="Hnummer" placeholder="Huisnummer"/>
+                      </div>
                     </div>
-<<<<<<< Updated upstream
                     <div class="row">
                       <div class="small-6 large-4 columns">
                         <input type="text" name="imeiNummer" placeholder="Imei nummer *" required/>
@@ -251,48 +852,27 @@
                       <div class="small-6 large-5 columns end">
                         <input type="text" name="ToegangsCode" placeholder="toegangs code"/>
                       </div>
-=======
-                    <div class="small-2 large-3 columns end">
-                        <input type="text" name="Hnummer" placeholder="Huisnummer"/>
                     </div>
-                </div>                    
-                <div class="row">
-                    <div class="small-6 large-4 columns">
-                        <div class="small-1 columns paddingWeg">
-                            <span data-tooltip aria-haspopup="true" class="has-tip" title="Het Imei nummer is uw telefoons numemr die kunt u vinden als u de telefoon aansluit op itunes op de home page. Doet de telefoon het helemaal niet meer dan kunt u dat melden in het invoer vield."><img class="hoverThis" title="" src="images/vraagteken.png" style="padding-top:5px; float:left!important;"></span>
-                        </div>
-                        <div class="small-11 columns">
-                            <input type="text" name="imeiNummer" placeholder="Imei nummer *" style="float:left!important;" required/>
-                        </div>
-                    </div>
-                    <div class="small-6 large-5 columns end">
-                        <div class="small-1 columns paddingWeg">
-                            <span data-tooltip aria-haspopup="true" class="has-tip" title="Wij gebruiken uw toegangs code alleen voor het testen van uw telefoon na het repareren. Heeft u geen toegangs code dan hoeft u hem ook niet in te voeren."><img src="images/vraagteken.png" style="padding-top:5px; float:left!important;"></span>
-                        </div>
-                        <div class="small-11 columns">
-                            <input type="text" name="ToegangsCode" placeholder="toegangs code"/>
-                        </div>
->>>>>>> Stashed changes
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="large-9 small-12 columns">
+                    <div class="row">
+                      <div class="large-9 small-12 columns">
                         <textarea name="Toevoeging" placeholder="belangrijke toevoegingen kunt u hier melden zoals meerdere schades of vragen"></textarea>
+                      </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="large-9 small-12 columns end">
+                    <div class="row">
+                      <div class="large-9 small-12 columns end">
                         <button class="small button" type="submit" name="submit" value="Verstuur">Verstuur</button>
+                      </div>
                     </div>
-                </div>
-            </form>
-        </section>
+                  </form>
+              </section>
+      </div>
     </div>
-
+</div>
         <!--Footer-->
         <div class="pageFooter">
           kvk: 123456789
         </div>
+<a class="exit-off-canvas"></a>
 
         <script src="http://localhost:35729/livereload.js"></script>
         <script src="bower_components/jquery/dist/jquery.min.js"></script>

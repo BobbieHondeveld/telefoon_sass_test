@@ -10,17 +10,24 @@
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </head>
 <body>
-
-      
-    <div class="cd-fixed-bg cd-bg-1">
-        
+    <div class="pageHeader">
+        <div class="show-for-medium-up">
+            <div class="large-12 columns">
+                <ul class="menubar">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">Werkwijze</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    <div class="cd-fixed-bg cd-bg-1"> 
         <img src="images/bobs.png" width="300" alt="" class="bobsPhoneRepair">
-
         <div class="row">
-          <a href="#startPage"><div class="small-12 columns arrowDown">
-            <p>Scroll / klik voor site</p>    
-            <img src="images/arrow-down.png" height="150" width="200" alt="">
-          </div></a>
+            <a href="#startPage"><div class="small-12 columns arrowDown">
+                <p>Scroll / klik voor site</p>    
+                <img src="images/arrow-down.png" height="150" width="200" alt="">
+            </div></a>
       </div>
     </div> 
     <div class="wrapper">
@@ -243,15 +250,6 @@
                     <div class="small-5 large-3 columns">
                         <input type="text" name="straat" placeholder="Straat"/>
                     </div>
-<<<<<<< Updated upstream
-                    <div class="row">
-                      <div class="small-6 large-4 columns">
-                        <input type="text" name="imeiNummer" placeholder="Imei nummer *" required/>
-                    </div>
-                      <div class="small-6 large-5 columns end">
-                        <input type="text" name="ToegangsCode" placeholder="toegangs code"/>
-                      </div>
-=======
                     <div class="small-2 large-3 columns end">
                         <input type="text" name="Hnummer" placeholder="Huisnummer"/>
                     </div>
@@ -272,7 +270,6 @@
                         <div class="small-11 columns">
                             <input type="text" name="ToegangsCode" placeholder="toegangs code"/>
                         </div>
->>>>>>> Stashed changes
                     </div>
                 </div>
                 <div class="row">

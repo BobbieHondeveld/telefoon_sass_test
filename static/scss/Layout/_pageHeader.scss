@@ -2,10 +2,14 @@
 	position:absolute;
 	width:100%;
 	z-index:100;
-	padding:rem-calc(0 20);
+	position:fixed; 
+	background-color:white; 
+	.large-12{
+		padding:0;
+	}
 	.menubar {
 		width: 100%;
-	    margin:rem-calc(30 0 0 0);
+	    margin:rem-calc(0 0 0 0);
 	    list-style:none;
 	    height:auto;
 	    overflow: hidden;
@@ -13,13 +17,13 @@
 	  
 	    /* Background color and gradients */
 	     
-	    background: $primary-color;
+	    
 	    // background: -moz-linear-gradient(top, $primary-color, darken($primary-color, 3%));
 	    // background: -webkit-gradient(linear, 0% 0%, 0% 70%, from($primary-color), to(darken($primary-color, 3%)));
 	     
 	    /* Borders */
 	     
-	    border: 1px solid $primary-color;
+	   /* border: 1px solid lightgray;*/
 
 	    
 	    li{
@@ -29,16 +33,16 @@
 	        position:relative;
 	        margin-top:12px;
 	        margin-bottom:17px;
-	        border-right: 1px solid darken($primary-color, 7%);
-	        border-left: 1px solid lighten($primary-color, 1%);
+	        /*border-right: 1px solid darken(lightgray, 7%);
+	        border-left: 1px solid lighten(lightgray, 1%);*/
 	        a{
-	            color: white;
+	        	color:black;
 	            padding-left:20px;
 	            padding-right:20px;
 	            padding-top: 20px;
 	            padding-bottom:20px;
 	            &:hover{
-	                background:darken($primary-color, 3%);
+	                color:$primary-color;
 	            }
 	        }
 	    }
